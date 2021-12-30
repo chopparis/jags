@@ -1,0 +1,192 @@
+
+//  @import "../../../styles/variables/_vars.scss";
+.txtProps{
+  font-size: 1rem;
+  font-family: 'OpenSans-Regular';
+  color: var(--secondarytxtColor);
+}
+.displyProps{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footerHolder{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  padding: 2%;
+  background: var(--footerBG);
+ }
+ .socialIcons{
+   font-size: 26px;
+     display: flex;
+     color: var(--textColor);
+     width: 30%;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     height: auto;
+     justify-content: flex-start;
+ }
+ .socialIcons .twiter_icon{
+   color: #02b3f5;
+   margin-right: 15px;
+ }
+ .socialIcons .fb_icon{
+   color: #1374ea;
+   margin-right: 15px;
+ }
+ .socialIcons .insta_icon{
+   color: #f00054;
+   margin-right: 15px;
+ }
+ .logoWraper{
+   width: 56%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .paymentsHolder{
+   display: flex;
+   flex-direction: column;
+   width: 56%;
+   padding:2vh;
+   align-items: flex-start;
+ }
+ .paymentsHolder span{
+   // @extend .txtProps;
+   font-family: 'OpenSans-Regular';
+   color: var(--textColor);
+   font-size: 13px !important;
+ }
+ .paymentsHolder span a{
+   // @extend .txtProps;
+   font-family: 'OpenSans-Regular';
+   color: var(--textColor);
+   font-size: 13px !important;
+ }
+ // .footerMenutem{
+ //   width: auto;
+ //   height: auto;
+ //   cursor: pointer;
+ //   // @extend .txtProps;
+ //   color: var(--secondarytxtColor);
+ //   font-size: 13px !important;
+ //   margin:2%;
+ // }
+ // .footerMenutem:hover{
+ //  color: var(--primaryColor);
+ //  font-weight: bold;
+ //  text-decoration:underline;
+ // }
+ .footerMenuHolder{
+   width: 35%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-end;
+   margin-top: 1%;
+ }
+ .footerText{
+   width: 76%;
+   // @extend .txtProps;
+   font-size: 'OpenSans-Regular';
+   color: var(--secondarytxtColor) !important;
+  // text-align: center;
+   font-size: 13px !important;
+   margin-bottom: 2%;
+   line-height: 22px;
+ 
+ }
+ .footerMenuHolder ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   width: 30%;
+ }
+ .footerMenuHolder li a {
+   // display: block;
+   // color: var(--textColor);
+   // text-align: center;
+   // padding: .8rem;
+   // font-family: 'OpenSans-Regular';
+   // color: var(--textColor);
+   // text-decoration: none;
+   // font-size: 1.2rem !important;
+ 
+     font-family: "OpenSans-Regular";
+     color: var(--textColor);
+     font-size: 13px;
+     text-align: left;
+     cursor: pointer;
+ 
+ }
+ .footerMenuHolder li a:hover {
+     color: var(--primaryColor);
+ }
+ .cardsStrip{
+      width: 72%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 1%;
+      align-items: center;
+ 
+ }
+ 
+ .playBtnHolder{
+   width: 140px;
+   height: 58px;
+   background-color: #2997FF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'OpenSans-Regular';
+   color: var(--textColor);
+   font-size: 16px !important;
+  }
+  
+  .playBtnHolder:hover {
+      background-color: var(--secondarColor);;
+      color: var(--secondarytxtColor);
+    }
+ 
+    
+
+.FlogoHolder{
+  width: 100%;
+  height: 100%;
+  min-width: 116px;
+  min-height: 72px;
+  position: relative;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+
+.paymenyCardHolder{
+  width: 84px;
+  height: 40px;
+  /* margin-left: 1%; */
+  margin-bottom: 1%;
+  position: relative;
+  /* border: 2px solid red; */
+  margin-right: 1%;
+  cursor: pointer;
+}
+.paymenyCardHolder img{
+  border-radius: 4px;
+}
+
+@media (max-width: 880px){
+   .footerHolder{flex-direction: column;}
+   .footerMenuHolder{width: 100%;display: flex;align-items: center;margin-top: 1%;justify-content: center;}
+   .footerMenuHolder ul {width: 40%; text-align: center !important;}
+   .paymentsHolder{width: 100%;justify-content: center;align-items: center;}
+   .cardsStrip{justify-content: center;}
+  .footerText{width: 50%;font-size: 12px !important;text-align: center;}
+  .logoWraper{width: 100%;margin-bottom: 50px;}
+}

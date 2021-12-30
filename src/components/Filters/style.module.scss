@@ -1,0 +1,214 @@
+.txtProps{
+    font-size: 1rem;
+    font-family: 'OpenSans-Regular';
+    color: var(--textColor);
+  }
+
+.filtersHolder{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    // border: 2px solid red;
+    @extend .txtProps;
+}
+
+
+.filtersHolder .gameProvidersH{
+    display: flex;
+    // padding: .5%;
+    width: 100%;
+    // border: 2px solid yellow;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.filtersHolder .dropDownH{
+    width: 16rem;
+    height: 2.8rem;
+    display: flex;
+    background-color: var(--dropDownBg);
+    border: 1px solid var(--primaryColor);
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2%;
+    text-align: center;
+    @extend .txtProps;
+    padding-left: 10%;
+    margin-right: 10px;
+    border-radius: 4px;
+    color:  var(--textColor);;
+
+}
+
+.filtersHolder .dropDownH:hover{
+    background-color: var(--primaryColor);
+}
+.filtersHolder .dropDownHBg{
+    background-color: var(--primaryColor);
+}
+
+.dropDownH .dropDownWraper{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+.filtersHolder .dropDownH:hover{
+    // background-color: var(--primaryColor);
+    cursor: pointer;
+}
+
+
+.filtersHolder .gameSearchHolder{
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    // background-color: var(--dropDownBg);
+}
+
+.filtersHolder .gameSearch{
+    width: 100%;
+    // border: 2px solid green;
+    height: 2.8rem;
+    display: flex;
+    // border: 2px solid var(--primaryColor);
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    @extend .txtProps;
+    border-radius: 4px;
+
+
+}
+
+.filtersHolder .providersList{
+    width: 16rem;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    // flex-wrap: wrap;
+    background-color:var(--primaryColor);
+    padding: .2%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 2px;
+
+}
+
+.filtersHolder input[type=text]{
+    width:100%;
+    height: 100%;
+    border:1px solid var(--primaryColor);
+    background-color: var(--secondaryBGcolor);
+    border-radius:4px;
+    // margin:8px 0;
+    outline:none;
+    // padding:12px;
+    box-sizing:border-box;
+    transition:.3s;
+    @extend .txtProps;
+    // color:  var(--secondaryBGcolor);
+    color: var(--textColor);
+  }
+  
+  .filtersHolderinput[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+
+// .filtersHolder input {
+//     width: 100%;
+//     padding: 5%;
+//      background-color: var(--dropDownBg);
+//     //background: transparent;
+//     color: var(--secondaryBGcolor);
+//     border: none;
+//     margin-bottom: 2%;
+//     font-size: 1rem;
+//     border: 2px solid var(--secondaryBGcolor);
+//     box-sizing: border-box;
+//     border-radius: 2px;
+//   }
+  
+//   .filtersHolder input:focus {
+//     border: 2px solid red !important;
+//   }
+// .filtersHolder .providersList{
+//     width: 16rem;
+//     height: auto;
+//     background-color: pink;
+//     position:absolute;
+//     z-index: 100;
+
+// }
+.providersList .listItems:hover{
+    background-color:var(--secondarColor);
+    cursor: pointer;
+}
+.providersList .listItems{
+    width: auto;
+    margin: .5%;
+    padding: 4%;
+    height: 2.5rem;
+    display: flex;
+    border: 1px solid var(--primaryColor);
+    // background-color: var(--specialBg);
+    background-color: var(--specialBg);
+    border-radius: 4px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.providersList .clearFilters{
+    background-color:#ff4d4d ;
+}
+.providersList .clearFilters:hover{
+    background-color:#ff1b1b;
+}
+
+.listItems .img{
+    position: relative;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.providersList .listItems span{
+    font-size: 1rem;
+    color:white;
+    padding-left: 10px;
+}
+// .providersList .listItems{
+//     width: 100%;
+//     margin-bottom:1%;
+//     height: 2.2rem;
+//     border: 2px solid blue;
+
+// }
+@media (min-width: 250px) and (max-width: 780px) {
+    .filtersHolder{
+        width: 98%;
+        flex-direction: column;
+        align-items: center;
+        padding: 1%;
+    }
+    .filtersHolder .gameSearchHolder{
+        width: 100%;
+        justify-content: center;
+        // border: 2px solid green;
+    }
+    .filtersHolder .gameSearch{
+        width: 34rem;
+        height: 3rem;
+    }
+
+
+    .filtersHolder .gameProvidersH{
+        width: 100%;
+        margin-bottom: 1%;
+        justify-content: center;
+    }
+  }

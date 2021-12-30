@@ -1,0 +1,23 @@
+{
+    "data": {
+        "displayName": "",
+        "login": "Login",
+        "joinNow": "join Now",
+        "logout": "Logout",
+        "deposit": "Deposit",
+        "promotions": "Promotions",
+        "balance": "Balance",
+        "bonusWallet": "Bonus Wallet",
+        "cashWallet": "Cash Wallet",
+        "myAccount": "My Account",
+        "casinoGames": "Casino Games",
+        "moreGames": "More Games 2",
+        "tableGames": "Table Games",
+        "PlayNow": "Play Now",
+        "liveCasinoGames": "Live casino Games",
+        "todayWinners": "Today Winners",
+        "Jackpots": "Jackpots",
+        "playedGame": "Played game",
+        "footerInfo": "By accessing, continuing to use, or navigating through this site you have accepted our use of certain browser cookies to improve the experience which you receive with us. Please refer to our Privacy Policy for further information on the types of cookies we use. GalaCasino is operated by LC International Limited who are licensed and regulated in Great Britain by the Gambling Commission"
+    }
+}

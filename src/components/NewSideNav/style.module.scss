@@ -1,0 +1,255 @@
+.txtProps{
+  font-size: 18px;
+  font-family: 'OpenSans-Regular';
+  color: var(--txtBaseColor);
+  font-weight: 600;
+  font-style: italic;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background:var(--sideMenuBg);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sideNavWraper{
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background: #00000091;
+    // cursor: pointer;
+    pointer-events: auto;
+  }
+  
+  .unSetWraper{
+    //width: 0%;
+   // height: 0vh;
+   // top: 0px;
+    //left: 0px;
+    //position: absolute;
+   // background-color: #00000091;
+  }
+  .sidenav a {
+    text-decoration: none;
+    color: var(--txtBaseColor);
+    display: block;
+    transition: 0.3s;
+    font-size: 18px;
+    font-family: 'OpenSans-Regular';
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .sidenav a:hover {
+    color: var(--txtBaseColor);
+  }
+  .sidenav .langWraper{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    top: 30px;
+    z-index: 2;
+  }
+  .sidenav .switchWraper{
+    position: absolute;
+    top: 0;
+    right: 70px;
+    top: 42px;
+    z-index: 4;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    top: 28px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+  
+  .sidenav .closebtn:hover{
+color: var(--textHoverColor);
+  }
+  .setWidth {
+    width: 310px;
+    
+}
+.unSetWidth{
+  width: 0px;
+}
+
+// .toggleMenu{
+//   font-family: 'OpenSans-Regular';
+//   color: var(--secondarytxtColor) ;
+//   font-size: 28px !important;
+//   cursor: pointer;
+// }
+
+.dropdownContainer {
+    display: block;
+    background:var(--sideNavDropDownBg);
+    padding-left: 8px;
+    // transition: .5s ease-out !important;
+  }
+
+  .dropdownContainer a{
+    font-size: 16px !important;
+    // transition: .5s ease-out !important;
+  }
+
+  .closeDropDown{
+    display: none;
+    background: #262626;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .faCaretDown {
+    float: right;
+    padding-right: 8px;
+  }
+  .dropdownBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 50px;
+    padding-left: 50px;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .setActiveColor{
+    //background-color: #5d6373;
+  }
+  .activeColor{
+    color: var(--textHoverColor);
+  }
+  .inActiveColor{
+    color: var(--txtBaseColor);
+  }
+  .dropdownBtn:hover{
+    background: var(--btnSelectColor);
+  }
+  .dropdownBtn .expandArrow{
+    color: var(--txtBaseColor);
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+.dropDownChildren{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 70px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+    cursor: pointer;
+    // transition: .5s ease-out !important;
+}
+.dropDownChildren a{
+  color: var(--subMenuTxt) !important;
+  font-weight: 600;
+  font-style: italic;
+}
+.dropDownChildren a:hover{
+  color: var(--textHoverColor) !important;
+}
+.dropDownChildren:hover a{
+  color: var(--textHoverColor);
+}
+
+  .normalBtn{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    padding-left: 50px;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .normalBtn:hover{
+    background: var(--btnSelectColor);
+  }
+
+
+  .setHomeColor a{
+    @extend .txtProps;
+   // color: var(--txtBaseColor) !important;
+  }
+  .unSetHomeColor a{
+
+  
+  }
+  // @media screen and (max-height: 450px) {
+  //   .sidenav {padding-top: 15px;}
+  //   .sidenav a {font-size: 18px;}
+  // }
+  
+// /* width */
+.sidenav::-webkit-scrollbar {
+  width: 6px !important;
+} 
+
+// /* Track */
+// .sidenav::-webkit-scrollbar-track {
+//   background: var(--scrollBgColor); 
+// } 
+ 
+// /* Handle */
+// .sidenav::-webkit-scrollbar-thumb {
+//   background: var(--scrollerColor);
+//   border-radius: 4px;
+// } 
+
+// /* Handle on hover */
+// .sidenav::-webkit-scrollbar-thumb:hover {
+//   background: var(--scrollerColor);
+//   border-radius: 4px;
+// } 
+
+.sidenav .logOutBtn{
+  width: 90%;
+  height: auto;
+  background: var(--btnSelectColor);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 5%; */
+  margin-left: 4%;
+  margin-top: 10%;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.sidenav .logOutBtn span{
+  @extend .txtProps;
+  padding:4%;
+}
+  @media screen and (max-height: 1920px) {
+    .sidenav {padding-top: 100px}
+    .setWidth{width: 320px;}
+    // .sidenav a {font-size: 18px;}
+  }
+
+  
+  @media screen and (max-width: 900px) {
+    .sidenav a {
+      font-size: 16px;
+    }
+  }
+
+
+  @media (min-width: 200px) and (max-width: 300px) {
+   .setWidth{width: 200px;}
+  }

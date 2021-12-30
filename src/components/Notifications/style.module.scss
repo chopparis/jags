@@ -1,0 +1,122 @@
+.notificationWrap {
+    background-color: #0174df;
+    border: 1px solid #77b0e6;
+    border-radius: 6px;
+    padding-top: 5px;
+    color: #fff;
+    margin: 5px;
+
+    .title {
+         width: calc(100% - 32px);
+         float: left;
+    }
+
+    .arrow {
+         padding: 5px;
+         width: 32px;
+         float: right;
+    }
+
+    li {
+         border-bottom: 1px solid #212733;
+         padding: 20px 0 20px 20px;
+         position: relative;
+         display: flow-root;
+         width: 100%;
+         margin: 0;
+
+         .title,
+         .description {
+              padding-left: 25px;
+         }
+
+         .description {
+              display: none;
+
+              &.block {
+                   display: inline-block;
+                   padding-top: 5px;
+                   width: 100%;
+                   line-height: 15px;
+              }
+         }
+
+         &::before {
+              content: "\f0f3";
+              font-weight: 400;
+              font-family: 'FontAwesome';
+              position: absolute;
+              top: 50%;
+              -webkit-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+              left: 20px;
+         }
+
+         dd {
+              text-transform: uppercase;
+              color: #000;
+              line-height: 15px;
+         }
+    }
+
+    .notifLogo {
+         float: left;
+         width: 98px;
+    }
+
+    .notifHeader {
+         padding-bottom: 10px;
+         padding-left: 20px;
+    }
+
+    .unread {
+         background-color: #2997ff;
+    }
+
+    .notifBody {
+         max-height: calc(100vh - 226px);
+         overflow-y: auto;
+    }
+
+    .close {
+         float: right;
+         background: var(--primary);
+         padding: 5px;
+         border-radius: var(--radius-primary);
+         margin-right: 5px;
+    }
+
+    .notifFooter {
+         padding: 20px;
+
+         .btn {
+              border: 1px solid #77b0e6;
+              border-radius: var(--radius-primary);
+              padding: 8px;
+              text-align: center;
+              color: #fff;
+              cursor: pointer;
+         }
+    }
+
+    h4 {
+         clear: both;
+         font-size: 18px;
+    }
+
+    .status {
+         color: #000;
+    }
+
+    .btn {
+         border: 1px solid #77b0e6;
+         border-radius: var(--radius-primary);
+         width: 80%;
+         margin: 3px auto;
+         padding: 5px;
+         text-align: center;
+         color: #fff;
+         cursor: pointer;
+    }
+}

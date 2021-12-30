@@ -1,0 +1,189 @@
+.loginBg{
+  background-color: var(--primaryBGcolor);
+}
+
+.txtProps{
+  font-size: 1rem;
+  font-family: 'OpenSans-Regular';
+  color: var(--textColor);
+}
+
+// .unSetOverlay{
+//     display: none;
+//   }
+//   .overlay {
+//     position: fixed; /* Sit on top of the page content */
+//     display: block; /* Hidden by default */
+//     width: 100%; /* Full width (cover the whole page) */
+//     height: 100%; /* Full height (cover the whole page) */
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+//     z-index: 2000; /* Specify a stack order in case you're using a different order for other elements */
+//     cursor: pointer; /* Add a pointer on hover */
+//   }
+
+  .loginWindow{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    // width: 28%;
+    // height: 62%;
+    // position: relative;
+    // background-color: var(--secondarColor);
+    background-color: var(--primaryBGcolor);
+    border-radius: 10px;
+    // border: 1px solid #707070;
+    margin-top: 22%;
+    padding-bottom: 8%;
+    // left: 36%;
+  }
+
+  .loginWindow .resultMsg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+}
+  
+
+  .loginWindow .resultMsg span{
+    @extend .txtProps;
+    text-align: center;
+    text-decoration: none;
+  
+  }
+
+  .loginWindow .emailIcon{
+    font-size: 6rem;
+    color:var(--primaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  .headtitle{
+    width: 100%;
+    height: 12%;
+    padding:2%;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 6px;
+    background-color: var(--primaryBGcolor);
+    border-top-left-radius: 6px;
+    position: relative;
+    align-items: center;
+  }
+  .headtitle span{
+    @extend .txtProps;
+    font-size: 16px !important;
+
+  }
+  .headtitle .closeBtn {
+    //font-size: 1.8rem !important;
+    @extend .txtProps;
+    font-weight: bold;
+    background-color: var(--secondaryBGcolor);
+    /* padding: 0.5rem; */
+    width: 2rem;
+    border-radius: 50%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.headtitle .closeBtn span{
+    @extend .txtProps;
+    font-size: 1rem !important;
+  }
+
+  .headtitle .closeBtn:hover{
+    background-color: var(--secondarColor) !important;
+  }
+
+  .formHolder {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 6%;
+
+  }
+  .titleTxt{
+    display: flex;
+    width: 94%;
+    height: auto;
+    // border: 2px solid red;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+  
+  .formHolder input {
+    width: 100%;
+    padding: 2.5%;
+    background-color: var(--secondaryBGcolor);
+    border: none;
+    margin-bottom: 2%;
+    font-size: 14px;
+    border: 1px solid var(--primaryColor);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    color: var(--textColor);
+  }
+  
+  // .formHolder button[type="submit"]{
+    .formHolder button{
+    background-color:var(--primaryColor);
+    border: none;
+    padding: 2.5%;
+    width: 100%;
+    @extend .txtProps;
+    font-size: 14px !important;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .formHolder button:hover{
+    background-color:var(--secondarColor);
+  }
+  .checkBoxHolder{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+  }
+  .checkBoxLable{
+    width: 50%;
+    display: flex;
+  }
+  .checkBoxHolder input{
+    width: 10% !important;
+  }
+  .errorText{
+    color:var(--errorColor);;
+    font-size: .8rem;
+  }
+
+  .disableForm{
+    pointer-events: none;
+    opacity: .5;
+  }
+  .enableForm{
+    pointer-events:auto;
+    opacity: 1;
+  }
+  
+  .pBar{
+    width: 100%;
+    height: 8px !important;
+    // height: 50% !important;
+     background-color: orange !important;
+  }
+ 

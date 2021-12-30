@@ -1,0 +1,367 @@
+
+body {
+  /* font-family: "Helvetica", Sans-Serif; */
+ background-color:#1b1f27 ;
+ position: relative;
+ height: auto;
+ min-height: 100%;
+ overflow-x: hidden;
+ overflow-y: auto;
+}
+div {
+  /* transition: background-color 0.5s ease; */
+
+    /* Firefox */
+    -moz-transition: background-color .85s ease;
+    /* WebKit */
+    -webkit-transition: background-color .5s ease;
+    /* Opera */
+    -o-transition: background-color .5s ease;
+    /* Standard */
+    transition: background-color .5s ease;
+
+  /* Firefox */
+  /* -moz-transition: all .5s ease-in; */
+  /* WebKit */
+  /* -webkit-transition: all .5s ease-in; */
+  /* Opera */
+  /* -o-transition: all .5s ease-in; */
+  /* Standard */
+  /* transition: all .5s ease-in; */
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --appBg:#000000;
+  --headerBGColor:linear-gradient(90deg, #1172BD 0%, #00C4C6 100%);
+  --menuBtncolor:#0E7FBE;
+  --secondBgColor:#D2ECF9;
+  --btnSelectColor:#E92284;
+  --btnSelectTriangle:#E92284;
+  --btnShadowColor:#C3DFEF;
+  --txtBaseColor:#FFFFFF;
+  --NavBtnsColor:linear-gradient(90deg, #0F7CBE 0%, #02B9C5 97.85%);
+  --categoryTitle:#000000;
+  --moreGamesTiyle:#099AC1;
+  --scrollBgColor:#C6DEE9;
+  --scrollerColor:#58BEDC;
+  --footerBG:linear-gradient(90deg, #1172BD 0%, #00C4C6 100%);;
+  --copyRightBg:#0A699D;
+  --subMenuTxt:#0E7FBE;
+  --sideMenuBg:#089fc2;
+  --sideNavDropDownBg:#A8DBFF;
+  --textHoverColor:#E92284;
+  --themeSwitcher:#121417;
+  --balanceBg:#089CC1;
+  --myAcctBg:#0980AD;
+  --textColor:#FFFFFF;
+  --footerInfotxtx:#84CEE1;
+  --footerDideLine:#84CEE1;
+
+
+
+--headerTxtColor:#FFFFFF;
+
+  --primaryColor : #2997FF;
+  --secondarColor:#005BC4;
+
+  --primaryBGcolor: #212733;
+  --secondaryBGcolor: #323746;
+
+ 
+  --secondarytxtColor:#FFFFFF;
+  --primarytxtColor:#005BC4;
+
+  --winnerBg:#FFFFFF;
+
+
+  --sidNavBg: #212733;
+  --sideMenuScrollBg:#24568f;
+  --dropDownBg:#323746;
+  --specialBg:#11142e;
+
+  --errorColor:#e72f35;
+  --favBg: #00B9FF;
+  --favSelect:#f50000;
+  --favUnSelect:#c7e7f3;
+
+  --joinColor:#E92284;
+  --myAccBg:#0173E0;
+  --myaccdisable:#9698A1;
+}
+
+
+/* if we use 'dark' , 'light' it apply for window as well ( browser scrolings) */
+
+[data-theme='blue'] {
+  --appBg:#000000;
+  --headerBGColor:linear-gradient(90deg, #1172BD 0%, #00C4C6 100%);
+  --menuBtncolor:#0E7FBE;
+  --secondBgColor:#D2ECF9;
+  --btnSelectColor:#E92284;
+  --btnSelectTriangle:#E92284;
+  --btnShadowColor:#C3DFEF;
+  --txtBaseColor:#FFFFFF;
+  --NavBtnsColor:linear-gradient(90deg, #0F7CBE 0%, #02B9C5 97.85%);
+  --categoryTitle:#000000;
+  --moreGamesTiyle:#099AC1;
+  --scrollBgColor:#C6DEE9;
+  --scrollerColor:#58BEDC;
+  --footerBG:linear-gradient(90deg, #1172BD 0%, #00C4C6 100%);;
+  --copyRightBg:#0A699D;
+  --subMenuTxt:#0E7FBE;
+  --sideMenuBg:#089fc2;
+  --sideNavDropDownBg:#A8DBFF;
+  --textHoverColor:#E92284;
+  --themeSwitcher:#121417;
+  --balanceBg:#089CC1;
+  --myAcctBg:#0980AD;
+  --textColor:#FFFFFF;
+  --footerInfotxtx:#84CEE1;
+  --footerDideLine:#84CEE1;
+
+
+--headerTxtColor:#FFFFFF;
+
+  --primaryColor : #2997FF;
+  --secondarColor:#005BC4;
+
+  --primaryBGcolor: #212733;
+  --secondaryBGcolor: #323746;
+
+
+  --secondarytxtColor:#FFFFFF;
+  --primarytxtColor:#005BC4;
+
+  --winnerBg:#FFFFFF;
+
+
+  --sidNavBg: #212733;
+  --sideMenuScrollBg:#24568f;
+  --dropDownBg:#323746;
+  --specialBg:#11142e;
+
+  --errorColor:#e72f35;
+  --favBg: #00B9FF;
+  --favSelect:#f50000;
+  --favUnSelect:#c7e7f3;
+
+  --joinColor:#E92284;
+  --myAccBg:#0173E0;
+  --myaccdisable:#9698A1;
+}
+
+[data-theme='pink'] {
+
+  --appBg:#1B1F27;
+  --headerBGColor:#121417;
+  --menuBtncolor:#000000;
+  --secondBgColor:#00000052;
+  --btnSelectColor:linear-gradient(90deg, #00A0DE 0%, #E3267F 100%);
+  --btnSelectTriangle:#7462ad;
+  --btnShadowColor:#1B1F27;
+  --txtBaseColor:#FFFFFF;
+  --NavBtnsColor:linear-gradient(90deg, #00A0DE 0%, #E3267F 100%);
+  --categoryTitle:#FFFFFF;
+  --moreGamesTiyle:#708B95;
+  --scrollBgColor: #003F57;
+  --scrollerColor:#FFFFFF;
+  --footerBG:#121417;
+  --copyRightBg:#000000;
+  --subMenuTxt:#FFFFFF;
+  --sideMenuBg:#121417;
+  --sideNavDropDownBg:#000000;
+  --textHoverColor:#E92284;
+  --themeSwitcher:#0E7FBE;
+  --balanceBg:#163A55;
+  --myAcctBg:#10547D;
+  --textColor:#FFFFFF;
+  --footerInfotxtx:#50606A;
+  --footerDideLine:#0F4F76;;
+
+
+
+  --headerTxtColor:#2997FF;
+
+  --primaryColor : #2997FF;
+  --secondarColor:#2997FF;
+
+  --primaryBGcolor: #A8DBFF;
+  --secondaryBGcolor: #A8DBFF;
+
+  --secondarytxtColor:#FFFFFF;
+  --primarytxtColor:#E0B0FF;
+
+ --winnerBg:#FFFFFF;
+ 
+
+  --sidNavBg: #d4e9f7;
+  --sideMenuScrollBg:#2997FF;
+  --dropDownBg:#131416;
+  --specialBg:transparent linear-gradient(180deg, #9B00FF 0%, #C368FF 100%) 0% 0% no-repeat padding-box;
+
+  --errorColor:#e72f35;
+  --favBg:#a61bff;
+  --favSelect:#f50000;
+  --favUnSelect:#c7e7f3;
+  
+  --joinColor:#F50357;
+  --myAccBg:#0173E0;
+  --myaccdisable:#9698A1;
+}
+
+
+/* disbale text selection by mouse drag */
+div {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+/* Below is for all scroles in app */
+
+/* width */
+/* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+} */
+ 
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #888; 
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} */
+
+
+/* Below is for onn;u browser scroles in app */
+
+body::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #5d6373;
+  }
+
+  body::-webkit-scrollbar-track {
+   /* background: #212733;  */
+   background: #C6DEE9; 
+  }
+
+  body::-webkit-scrollbar-thumb {
+    /* background-color: #5d6373 ; */
+    border-radius: .1rem;
+    background: #58BEDC;
+    /* background: #5d6373 ; */
+    /* border: 1px solid #5d6373; */
+  }
+
+  /* Handle on hover */
+  body::-webkit-scrollbar-thumb:hover {
+  /* background: var(--sideMenuScrollBg); */
+  background: #58BEDC;
+  border-radius: 4px;
+} 
+
+div::-webkit-scrollbar {
+  height: 6px;
+}
+
+/* Track */
+div::-webkit-scrollbar-track {
+  background: var(--scrollBgColor); 
+} 
+ 
+/* Handle */
+div::-webkit-scrollbar-thumb {
+  background: var(--scrollerColor);
+  border-radius: 4px;
+} 
+
+/* Handle on hover */
+div::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollerColor);
+  border-radius: 4px;
+} 
+
+@media (min-width: 1024px) and (max-width: 8000px) {
+
+   /* CSS */
+   html { font-size: 16px; }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+  html { font-size: 14px; }
+  /* .rec.rec-slider-container{overflow: visible;}   */
+}
+  
+@media (min-width: 100px) and (max-width: 600px) and (orientation: landscape) {
+  html { font-size: 12px; }
+  /* .rec.rec-slider-container{overflow: visible;}   */
+}
+  /* CSS */
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+
+ /* .MuiSwitch-track{
+  background-color:white !important;
+}
+
+.MuiOutlinedInput-root {
+  position: relative;
+  border-radius: 4px;
+  border-color: red;
+  color: red;
+}
+.MuiInputBase-root {
+  color: rgb(56 251 32 / 87%);
+  cursor: text;
+  display: inline-flex;
+  position: relative;
+  font-size: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.1876em;
+  letter-spacing: 0.00938em;
+} */
+/*
+.Mui-disabled { 
+  background-color: blue !important;
+} */
+
+/* .MuiSwitch-switchBase{
+  color: blue !important;
+} */

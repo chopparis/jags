@@ -1,0 +1,206 @@
+.headerContaner {
+  // display: flex;
+  width: 100%;
+  height: 104px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  top: 0;
+  z-index: 5;
+  // background-color:#212733;
+  background: var(--headerBGColor);
+  color: var(--secondarytxtColor);
+  opacity: 1;
+  position: fixed;
+  // opacity: 0;
+  // transition: opacity .33s ease-in-out;
+  // transition: transform 0.4s ease;
+  // will-change: transform;
+}
+.headerContaner .Header_logo {
+  pointer-events: none;
+}
+.headerContaner .Header_logo img {
+  min-height: 40% !important;
+}
+.headerContaner .btn_container {
+  background: #089cc1;
+  // background: #089CC1;
+  width: 22%;
+  height: 56px;
+  float: right;
+  border-radius: 24px 0px 0px 24px;
+  color: #fff;
+  margin: 25px 0;
+  margin-right: 14%;
+  position: relative;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerContaner .sgnup_login_container {
+  // width: 30%;
+  width: 27%;
+  height: 100%;
+  float: right;
+  padding: 30px 0;
+  display: flex;
+  font-family: 'OpenSans-Regular';
+  font-style: italic;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 2;
+}
+.headerContaner .btn_container .deposit {
+  width: auto;
+  // height: 8vh;
+  height: 100%;
+  background: #e92284;
+  border-radius: 23px;
+  border: none;
+  // margin-right: 20px;
+  color: #fff;
+  font-size: 1rem;
+  // position: absolute;
+  // right: -40px;
+  font-family:inherit;
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-right: -30px;
+}
+.headerContaner .sgnup_login_container .signup {
+  // width: 40%;
+  // height: 7vh;
+  width: 180px;
+  height: 50px;
+  background: #e92284;
+  border-radius: 23px;
+  border: none;
+  margin-right: 20px;
+  color: #fff;
+  font-size: 1rem;
+  font-family:inherit;
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}
+.headerContaner .sgnup_login_container .login {
+  // width: 30%;
+  // height: 7vh;
+  width: 130px;
+  height: 50px;
+  border-radius: 23px;
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family:inherit;
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}
+.headerContaner .menu_search {
+  height: 104px;
+  float: left;
+  width: 200px;
+  padding-left: 10px;
+  z-index: 3;
+  cursor: pointer;
+}
+.headerContaner .menu_search span {
+  padding: 38px 10px;
+  display: inline-block;
+  font-size: 20px;
+}
+.headerContaner .btn_container .item:first-child {
+  background: #0980ad;
+  border-top-left-radius: 23px;
+  border-bottom-left-radius: 23px;
+}
+.headerContaner .btn_container .item:nth-child(2) {
+  // width: 20%;
+}
+.headerContaner .btn_container .item {
+  width: auto !important;
+  float: left;
+  text-align: right;
+  padding: 5px 10px;
+  padding-right: 6%;
+  padding-left: 8%;
+  // height: 8vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.headerContaner .btn_container .item span{
+white-space: nowrap;
+
+}
+.headerContaner .btn_container .item_bonus {
+  width: auto !important;
+  float: left;
+  text-align: right;
+  padding: 5px 10px;
+  padding-right: 6%;
+  padding-left: 2%;
+  // height: 8vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.headerContaner .btn_container .item_bonus span{
+white-space: nowrap;
+
+}
+
+.headerContaner .btn_container .lable {
+  font-style: italic;
+  // font-weight: 600;
+  font-size: 12px;
+  font-family: "OpenSans-Regular";
+}
+.headerContaner .btn_container .value {
+  font-weight: bold;
+  font-size: 16px;
+  font-style: italic;
+}
+.headerContaner .btn_container .value_name {
+  font-weight: bold;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.headerContaner .btn_container .notifications {
+  width: 50px;
+  position: absolute;
+  right: -40%;
+  top: 15px;
+}
+
+.headerContaner .btn_container .notifications span{
+  display: inline-block;
+  font-size: 26px;
+}
+
+
+.headerContaner .btn_container .notifications .count {
+  position: absolute;
+  top: -14px;
+  border: 1px solid #e92284;
+  display: inline-block;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background: #e92284;
+  padding: 2px;
+  font-size: 14px !important;
+  font-style: italic;
+   font-weight: 600;
+  font-family: "OpenSans-Regular";
+}

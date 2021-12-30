@@ -1,0 +1,148 @@
+{
+    "menu": [
+       {
+          "name": "Slots",
+          "display_name": "Slots",
+          "iconPath": "menuicons/casinoGame.svg",
+          "permalink":"/slots",
+          "open":false,
+          "gameRoute":true,
+          "subMenu": [
+             {
+                "name": "Video Slots",
+                "permalink":"/videoslots",
+                "display_name": "Video Slots",
+                "iconPath": "casinoGame",
+                "pageId": "Live roulette",
+                "subMenu": null,
+                "gameRoute":true
+             },
+             {
+                "name": "Jackpots",
+                "permalink":"/jackpots",
+                "display_name": "Jackpots",
+                "iconPath": "casinoGame",
+                "pageId": "Live roulette",
+                "subMenu": null,
+                "gameRoute":true
+             },
+             {
+                "name": "Classic Slots",
+                "permalink":"classicslots",
+                "display_name": "Classic Slots",
+                "iconPath": "casinoGame",
+                "pageId": "Live roulette",
+                "subMenu": null,
+                "gameRoute":true
+             },
+             {
+                "name": "Megaways Slots",
+                "permalink":"megawayslots",
+                "display_name": "Megaways Slots",
+                "iconPath": "casinoGame",
+                "pageId": "Live roulette",
+                "subMenu": null,
+                "gameRoute":true
+             },
+             {
+                "name": "Must Fall Jackpots",
+                "permalink":"mustfalljackpots",
+                "display_name": "Must Fall Jackpots",
+                "iconPath": "casinoGame",
+                "pageId": "Live roulette",
+                "subMenu": null,
+                "gameRoute":true
+             }
+          ]
+       },
+       {
+          "name": "Live Casino",
+          "permalink":"livecasino",
+          "display_name": "Live Casino",
+          "iconPath": "menuicons/liveCasino.svg",
+          "pageId": "livrCasino",
+          "showInMainMenu": true,
+          "subMenu": null,
+          "gameRoute":true
+       },
+       
+       {
+          "name": "Table Games",
+          "permalink":"tablegames",
+          "display_name": "Table Games",
+          "iconPath": "menuicons/tableGames.svg",
+          "showInMainMenu": true,
+          "open":false,
+          "gameRoute":true,
+          "subMenu": [
+             {
+                "name": "Roulette ",
+                "permalink":"roulette",
+                "display_name": "Roulette",
+                "iconPath": "Roulette",
+                "pageId": "Roulette",
+                "subMenu": null,
+                "gameRoute":true
+             },
+             {
+                "name": "Blackjack",
+                "permalink":"blackjack",
+                "display_name": "Blackjack",
+                "iconPath": "Blackjack",
+                "pageId": "Blackjack",
+                "subMenu": null,
+                "gameRoute":true
+             },
+             {
+                "name": "Baccarat",
+                "permalink":"baccarat",
+                "display_name": "Baccarat",
+                "iconPath": "Baccarat",
+                "pageId": "Baccarat",
+                "subMenu": null,
+                "gameRoute":true
+             }
+          ]
+       },
+       {
+          "name": "Multi Hand Poker",
+          "permalink":"multihandpoker",
+          "display_name": "Multi Hand Poker",
+          "iconPath": "menuicons/multiHand.svg",
+          "pageId": "Multi Hand Poker",
+          "showInMainMenu": true,
+          "subMenu": null,
+          "gameRoute":true
+       },
+       {
+          "name": "Pyramid Poker",
+          "permalink":"pyramidpoker",
+          "display_name": "Pyramid Poker",
+          "iconPath": "menuicons/pyramidPoker.svg",
+          "pageId": "Pyramid Poker",
+          "showInMainMenu": true,
+          "subMenu": null,
+          "gameRoute":true
+       },
+       {
+          "name": "More Games",
+          "permalink":"moregames",
+          "display_name": "More games",
+          "iconPath": "menuicons/pyramidPoker.svg",
+          "pageId": "More Games",
+          "showInMainMenu": true,
+          "subMenu": null,
+          "gameRoute":true
+       },
+       {
+          "name": "Promotions",
+          "permalink":"promotions",
+          "display_name": "Promotions",
+          "iconPath": "menuicons/Promotions.svg",
+          "pageId": "promotions",
+          "showInMainMenu": true,
+          "subMenu": null,
+          "gameRoute":false
+       }
+    ]
+ }

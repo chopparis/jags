@@ -1,0 +1,345 @@
+.myFile_container{
+  width: 80%;
+  margin: 0 auto; 
+   background: #1b1f27;
+  color: #fff;
+  // padding: 30px 0;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  font-family: 'OpenSans-Regular';
+
+  // border:2px solid var(--primaryColor);
+}
+
+.page_container .blue_color_font {
+  color: #2997ff;
+}
+.page_container .lock_icon {
+  width: 60px;
+  padding-left: 8px;
+  /* height: 60px; */
+}
+.page_container .hr_line {
+  width: 98.4%;
+  padding: 0;
+  border: 1px solid #4c4c4c;
+  margin-top: 15px 0 0 0;
+  display: inherit;
+}
+.page_container .text_label {
+  width: 100%;
+  float: left;
+}
+.page_container .my_ac_lable {
+  font-family: inherit;
+  font-size: 18px;
+  font-style: normal;
+}
+.page_container .heading {
+  font-family: inherit;
+  font-size: 27px !important;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #ffffff;
+}
+.page_container .sub_header {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.page_container .heading h2.main_heading {
+  /* width: auto;
+  float: left; */
+  margin: 35px 0 20px 0;
+  font-size: 32px;
+}
+
+.page_container .form_contanier {
+  // background: #212733;
+  padding: 0 30px 15px 30px;
+  /* margin_top: 30px; */
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.page_container .form_contanier .vagas_logo {
+  width: 28%;
+}
+.page_container .date_search .input_label,
+.page_container .form_contanier .input_label {
+  font-size: 12px;
+  line-height: 35px;
+}
+.page_container .form_group,
+.page_container .form_contanier .form_group {
+  width: 100%;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.page_container .form_group_30 {
+  width: 33%;
+  float: left;
+  margin: 0 2px;
+  line-height: 28px;
+}
+.page_container .form_contanier .form_group_40 {
+  width: 40%;
+  float: left;
+}
+.page_container .form_contanier .form_group_50 {
+  width: 49%;
+  float: left;
+}
+
+.page_container .form_contanier .form_group_60 {
+  width: 60%;
+  float: left;
+}
+.page_container .form_control,
+.page_container select,
+.page_container button,
+.page_container .form_contanier .form_group .form_control {
+  height: 58px;
+  width: 100%;
+  border-radius: 4px;
+  border: 3px solid #fff;
+  background: #323746;
+  outline: none;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: #fff;
+}
+.page_container .file_dummy {
+  /* width: 100%; */
+  padding: 30px;
+  background: 323746;
+  border: 2px dashed #fff;
+  text-align: center;
+}
+.page_container .file_dummy .success {
+  display: none;
+}
+
+.page_container .file_dummy:hover .file_dummy {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.page_container input[type="file"]:focus + .file_dummy {
+  outline: 2px solid rgba(255, 255, 255, 0.5);
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.page_container input[type="file"]:valid + .file_dummy {
+  border-color: rgba(0, 255, 0, 0.4);
+  background-color: rgba(0, 255, 0, 0.3);
+}
+.page_container .file_dummy .success {
+  display: inline-block;
+}
+.page_container .file_dummy  .success a{
+  color:#2997ff;
+}
+.page_container .file_dummy .default {
+  display: none;
+}
+.page_container .file_dummy .file_upload_icon {
+  width: 25px;
+  padding-right: 8px;
+}
+.page_container .file_formate {
+  font-size: 14px;
+}
+.page_container .card_row {
+  display: flex;
+  margin-bottom: 10px;
+}
+.page_container .card_row .card_border {
+  border: 3px solid #fff;
+  color: #fff;
+  padding: 19px 15px;
+  line-height: 14px;
+  background: #323746;
+}
+.page_container .card_contanier {
+  border-radius: 4px;
+  /* height: 58px; */
+  padding: 10px 0;
+  box-sizing: border-box;
+  width: 95%;
+  float: left;
+}
+.page_container .edit,
+.page_container .delete {
+  border: 3px solid #fff !important;
+  color: #fff !important;
+}
+.page_container .card_row .edit,
+.page_container .card_row .delete {
+  height: 58px;
+  width: 60px;
+  border-radius: 4px;
+  border: 3px solid #fff;
+  background: #323746;
+  box-sizing: border-box;
+  font-size: 18px;
+  float: left;
+  margin-left: 8px;
+  padding: 12px 12px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.page_container .my_uploadIcon_top{
+  font-size: 50px;
+   // fill: var(--primaryColor);
+   color: var(--textColor);
+   margin-right: 10px;
+ }
+.page_container .card_row .file_upload_icon {
+  width: 30px;
+  float: left;
+  padding-right: 15px;
+}
+
+.page_container .form_contanier .myFiles_vagas_logo {
+  // width: 28%;
+  position: relative;
+  width:16%;
+  height:80px;
+}
+
+.page_container .save_button {
+  background: #2997ff;
+  border: none;
+}
+.page_container button {
+  width: 49.5%;
+  float: left;
+}
+.page_container .add_button {
+  margin-left: 8px;
+}
+.page_container .file_upload_progress {
+  background: #323746;
+  border-radius: 4px;
+}
+.page_container .file_upload_progress progress {
+  width: 92%;
+  float: left;
+  margin-top: 3px;
+}
+.page_container .file_upload_progress .progres_bar_block {
+  padding: 15px 20px;
+}
+.page_container .file_upload_progress .input_label {
+  font-size: 18px;
+}
+.page_container .file_upload_progress .progress_bar_status {
+  padding-left: 15px;
+}
+.page_container .file_heading{
+  padding: 0 20px;
+}
+.page_container .sub_header{
+  font-size: 1.4rem;
+}
+.page_container .form_contanier .myFiles_vagas_logo{
+  width: 40%;
+}
+@media only screen and (max-width: 1024px) {
+  .page_container .save_button ,
+  .page_container .add_button {
+    width: 49.4%;
+  }
+ }
+@media only screen and (max-width: 768px) {
+  .App .container {
+    width: 94%;
+  }
+  .page_container button {
+    width: 49% !important;
+  } 
+}
+
+@media only screen and (max-width: 767px) {
+  .App {
+    padding: 5px 0 !important;
+  }
+  /* .App .container {
+    width: 85%;
+  } */
+  .page_container .heading_blcok {
+    display: none;
+  }
+  .page_container .form_contanier button {
+    padding: 0 15px;
+    font-size: 15px;
+  }
+  .page_container .form_contanier {
+    background: unset;
+    padding: 0;
+    margin: 10px 0;
+  }
+  .page_container .bg-color {
+    background: unset !important;
+  }
+  .page_container .lock_icon {
+    padding-right: 10px;
+    float: left;
+    box-sizing: content-box;
+    height: 45px;
+    width: 45px;
+  }
+  .page_container .my_ac_lable {
+    display: none;
+  }
+  .page_container .heading h2.main_heading ,
+  .page_container .main_heading ,
+    .page_container .heading {
+    color: #2997ff;
+    font-size: 1.3rem !important;
+  }
+  .page_container .sub_header {
+    color: #fff;
+    line-height: 25px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .page_container .heading h2.main_heading {
+    margin: 3px 0 10px 0;
+  }
+  .page_container .form_contanier .form_group .form_control::placeholder {
+    font-size: 13px;
+  }
+  .page_container button {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+  .page_container .file_upload_progress .progress_bar_status {
+    padding-left: 5px;
+    display: inline-block;
+    padding-top: 10px;
+  }
+  .myFile_container{
+    width: 75%;
+    padding:15px;
+  }
+  .page_container .my_uploadIcon_top{
+    float: left;
+    width: 25px;
+    height: 30px;
+    font-size: 27px;
+  }
+  .page_container .form_contanier .myFiles_vagas_logo{
+    width: 60%;
+  }  
+} 
+

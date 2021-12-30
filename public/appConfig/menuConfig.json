@@ -1,0 +1,173 @@
+{
+   "menu": [
+   
+      {
+         "name": "Home",
+         "display_name": "Home",
+         "id":"m1",
+         "permalink":"/",
+         "iconPath": "menuicons/home.svg",
+         "pageId": "Home",
+         "showInMainMenu": false,
+         "subMenu": null,
+         "gameRoute":"myaccount"
+      },
+      {
+         "name": "favourites",
+         "display_name": "Favourites",
+         "id":99,
+         "permalink":"favourites",
+         "iconPath": "menuicons/home.svg",
+         "pageId": "favourites",
+         "showInMainMenu": true,
+         "subMenu": [],
+         "gameRoute":""
+
+
+      },
+      {
+         "name": "myaccount",
+         "id":"m2",
+         "display_name": "My Account",
+         "iconPath": "menuicons/myaccount.svg",
+         "showInMainMenu": false,
+         "open":false,
+         "gameRoute":"myaccount",
+         "subMenu": [{
+            "name": "mydetails",
+            "permalink":"my-details",
+            "display_name": "My Details",
+            "iconPath": "mydetails",
+            "pageId": "mydetails",
+            "subMenu": null,
+            "gameRoute":"myaccount"
+         },
+         {
+            "name": "changepassword",
+            "permalink":"change-password",
+            "display_name": "Change Password",
+            "iconPath": "changepassword",
+            "pageId": "changepassword",
+            "subMenu": null,
+            "gameRoute":"myaccount"
+         },
+         {
+            "name": "addnewcard",
+            "permalink":"add-card",
+            "display_name": "Add a New Card",
+            "iconPath": "Add a New Card",
+            "pageId": "Add a New Card",
+            "subMenu": null,
+            "gameRoute":"myaccount"
+         },
+         {
+            "name": "deposit",
+            "permalink":"deposit",
+            "display_name": "Deposit",
+            "iconPath": "Deposit",
+            "pageId": "Deposit",
+            "subMenu": null,
+            "gameRoute":"myaccount"
+         },
+         {
+            "name": "withdraw",
+            "permalink":"withdraw",
+            "display_name": "Withdraw",
+            "iconPath": "Withdraw",
+            "pageId": "Withdraw",
+            "subMenu": null,
+            "gameRoute":"myaccount"
+         },
+         {
+            "name": "depositlimit",
+            "permalink":"deposit-limit",
+            "display_name": "Deposit Limit",
+            "iconPath": "Deposit Limit",
+            "pageId": "Deposit Limit",
+            "subMenu": null,
+            "gameRoute":"myaccount"
+         },
+         {
+            "name": "mybonus",
+            "permalink":"my-bonus",
+            "display_name": "My Bonus",
+            "iconPath": "My Bonus",
+            "pageId": "My Bonus",
+            "subMenu": null,
+            "gameRoute":"myaccount"
+         },
+         {
+            "name": "myhistory",
+            "permalink":"my-history",
+            "display_name": "My History",
+            "iconPath": "My History",
+            "pageId": "My History",
+            "subMenu": null,
+            "gameRoute":"myaccount"
+         },
+         {
+            "name": "myfiles",
+            "display_name": "My Files",
+            "permalink":"my-files",
+            "iconPath": "My Files",
+            "pageId": "My Files",
+            "subMenu": null,
+            "gameRoute":"myaccount"
+         },
+         {
+            "name": "inbox",
+            "permalink":"inbox",
+            "display_name": "Inbox",
+            "iconPath": "Inbox",
+            "pageId": "Inbox",
+            "subMenu": null,
+            "gameRoute":"myaccount"
+         }]
+      },
+      {
+         "name": "Deposit",
+         "id":"m3",
+         "permalink":"/",
+         "display_name": "Deposit",
+         "iconPath": "menuicons/deposit.svg",
+         "pageId": "Deposit",
+         "showInMainMenu": false,
+         "subMenu": null,
+         "gameRoute":"myaccount"
+      },
+      {
+         "name": "Affiliate",
+         "id":"m4",
+         "permalink":"/",
+         "display_name": "Affiliate",
+         "iconPath": "menuicons/affiliate.svg",
+         "pageId": "Affiliate",
+         "showInMainMenu": false,
+         "subMenu": null,
+         "gameRoute":"myaccount"
+      },
+      {
+         "name": " VIP Programe",
+         "id":"m5",
+         "permalink":"/",
+         "display_name": "VIP Programe",
+         "iconPath": "menuicons/vip.svg",
+         "pageId": "VIP",
+         "showInMainMenu": false,
+         "subMenu": null,
+         "gameRoute":"myaccount"
+      },
+      {
+         "name": "Help",
+         "id":"m6",
+         "permalink":"/",
+         "display_name": "Help",
+         "iconPath": "menuicons/help.svg",
+         "pageId": "help",
+         "showInMainMenu": false,
+         "subMenu": null,
+         "gameRoute":"myaccount"
+      }
+   
+   ]
+}

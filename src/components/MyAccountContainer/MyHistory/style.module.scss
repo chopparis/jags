@@ -1,0 +1,336 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.page_container .blue_color_font {
+  color: #2997ff;
+}
+.page_container .lock_icon {
+  width: 60px;
+  padding-left: 8px;
+  /* height: 60px; */
+}
+.page_container .hr_line {
+  width: 98.4%;
+  padding: 0;
+  border: 1px solid #4c4c4c;
+  margin-top: 15px 0 0 0;
+  display: inherit;
+}
+.page_container .text_label {
+  width: 100%;
+  float: left;
+}
+.page_container .my_ac_lable {
+  font-family: inherit;
+  font-size: 18px;
+  font-style: normal;
+}
+.page_container .heading {
+  font-family: inherit;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: white;
+}
+.page_container .heading h2.main_heading {
+  width: auto;
+  float: left;
+  margin: 15px 0 40px 0;
+  font-family: inherit;
+}
+.page_container .dates_search {
+  display: inline-block;
+  width: 100%;
+}
+
+.page_container .dates_search .search_button {
+  line-height: 7;
+  margin-right: 0;
+  margin-top: 9px;
+}
+.page_container .dates_search button {
+  background: #2997ff;
+  border: none;
+}
+.page_container .history_buttons {
+  float: right;
+}
+.page_container .history_buttons .transaction_history,
+.page_container .history_buttons .bet_history {
+  width: auto;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.page_container .history_buttons .transaction_history {
+  background: #2997ff;
+  border: none;
+  cursor: pointer;
+}
+.page_container .form_contanier {
+  background: #212733;
+  padding: 0 30px 15px 30px;
+  /* margin_top: 30px; */
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.page_container .form_contanier .vagas_logo {
+  width: 28%;
+}
+.page_container .date_search .input_label,
+.page_container .form_contanier .input_label {
+  font-size: 12px;
+  line-height: 35px;
+}
+.page_container .form_group,
+.page_container .form_contanier .form_group {
+  width: 100%;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.page_container .form_group_30 {
+  width: 33%;
+  float: left;
+  margin: 0 2px;
+  line-height: 28px;
+}
+
+.page_container .my_HistryIcon{
+  width: 22px;
+  height: 22px;
+   color: var(--primaryColor);
+ // fill: var(--primaryColor);
+  margin-right: 10px;
+ 
+}
+
+.page_container .my_HistryclockIcon{
+  width: 52px;
+  height: 52px;
+  // fill: var(--primaryColor);
+  color: var(--primaryColor);
+  margin-right: 10px;
+}
+
+
+.page_container .form_contanier .form_group_40 {
+  width: 40%;
+  float: left;
+}
+.page_container .form_contanier .form_group_50 {
+  width: 49%;
+  float: left;
+}
+
+.page_container .form_contanier .form_group_60 {
+  width: 60%;
+  float: left;
+}
+.page_container .form_control,
+.page_container select,
+.page_container button,
+.page_container .form_contanier .form_group .form_control {
+  height: 58px;
+  width: 100%;
+  border-radius: 4px;
+  border: 3px solid #fff;
+  background: #323746;
+  outline: none;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: #fff;
+}
+.page_container .form_contanier .summary_block {
+  display: inline-block;
+  width: 100%;
+}
+.page_container .form_contanier .summary_block .summary_block_content {
+  border-radius: 4px;
+  background: #323746;
+  margin: 5px;
+  height: 58px;
+  padding: 8px 20px;
+  box-sizing: border-box;
+}
+.page_container .form_contanier .summary_block .summary_block_content .transaction_icon {
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+.page_container .form_contanier .summary_block .summary_block_content .content_block {
+  float: left;
+  padding-left: 20px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.page_container .form_contanier .summary_block .summary_block_content {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+.page_container .form_contanier .summary_block .summary_block_content span {
+  width: 100%;
+  display: inline-block;
+  font-size: 14px;
+}
+.transaction_table .form_contanier {
+  padding: 10px 0;
+}
+
+
+.transaction_table .tr {
+  width: 100%;
+  display: inline-block;
+  border-bottom: 1px solid #2f3848;
+  height: 50px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  color: white;
+}
+.transaction_table .table_body .tr:last-child {
+  border-bottom: unset;
+}
+.transaction_table .th,
+.transaction_table .td {
+  width: 12%;
+  float: left;
+  padding: 10px 5px;
+  text-align: left;
+  font-size: 1rem;
+}
+.date_time {
+  line-height: 22px;
+  padding: 0 5px !important;
+}
+.transaction_table .button_td {
+  width: 19%;
+  text-align: right;
+  padding: 6px 5px 0px 5px;
+}
+.transaction_table .cancel_button {
+  height: auto;
+  padding: 4px 20px;
+  width: 100px;
+}
+.orange {
+  color: orange;
+}
+.green {
+  color: green;
+}
+.page_container .mobile_device {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .page_container .search_button {
+    width: 32.6%;
+  }
+  .page_container .form_contanier .summary_block_content {
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .App .container {
+    width: 94%;
+  }
+  .page_container .search_button {
+    width: 31.6%;
+  }
+  .transaction_table .button_td {
+    width: 15%;
+  }
+  .transaction_table .wtf {
+    padding: 0 5px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .page_container .heading_blcok {
+    display: none;
+  }
+  .page_container .form_contanier button {
+    padding: 0 15px;
+  }
+  .page_container .form_contanier {
+    /* background: unset; */
+    padding: 0;
+    margin: 10px 0;
+  }
+  .page_container .bg_color {
+    background: unset !important;
+  }
+  .page_container .lock_icon {
+    padding-right: 10px;
+    float: left;
+    box-sizing: content-box;
+    height: 45px;
+    width: 45px;
+  }
+  .page_container .my_ac_lable {
+    display: none;
+  }
+  .page_container .heading {
+    color: #2997ff;
+    font-size: 16px;
+  }
+  .page_container .heading h2.main_heading {
+    margin: 3px 0 40px 0;
+  }
+  .page_container .form_contanier .form_group .form_control::placeholder {
+    font-size: 13px;
+  }
+  .page_container .history_buttons {
+    float: left;
+    margin-bottom: 20px;
+  }
+  .page_container .history_buttons .transaction_history {
+    padding: 0 18px;
+    margin-left: 0;
+    cursor: pointer;
+  }
+  .page_container .form_group_30 {
+    width: 48.7%;
+  }
+  .page_container .search_button,
+  .page_container .form_contanier .form_group_40,
+  .page_container .form_contanier .form_group_50,
+  .page_container .form_contanier .form_group_60 {
+    width: 98.6%;
+  }
+  .page_container h5 {
+    font-size: 18px;
+  }
+  .page_container .table_container {
+    padding: 35px 0;
+  }
+  .transaction_table .button_td {
+    width: auto;
+    height: 50px;
+  }
+  .page_container .form_contanier button {
+    padding: 5px 15px;
+    margin-top: 20px;
+  }
+  .page_container .transaction_table .th,
+  .transaction_table .td {
+    width: 21%;
+    font-size: 12px;
+  }
+  .page_container .form_control,
+  .page_container select,
+  .page_container button,
+  .page_container .form_contanier .form_group .form_control {
+    padding: 0 12px;
+  }
+}

@@ -1,0 +1,438 @@
+.txtProps{
+    font-size: 1rem;
+    font-family: 'OpenSans-Regular';
+    color: var(--textColor);
+}
+
+.fHolder{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color:var(--sidNavBg);
+    padding-bottom: 6%;
+    // margin-top: 8%;
+    border-radius: 10px;
+
+}
+.fHolder .titleHead{
+    width: 100%;
+    height: 5.6rem;
+    display: flex;
+    background-color: var(--sidNavBg);
+    border-radius: 10px;
+    position: relative;
+}
+.fHolder .title{
+    width: 50%;
+    display: flex;
+    height: auto;
+    // background-color: green;
+    justify-content: flex-start;
+    align-items: center;
+}
+.fHolder .title span{
+    @extend .txtProps;
+    padding-left: 20%;
+    font-size: 24px !important;
+}
+
+.fHolder .stepper{
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    display: flex;
+    // background-color: red;
+    align-items: flex-end;
+    position: relative;
+}
+
+.fHolder .steps{
+    width: 2.2rem;
+    height: 2.2rem;
+
+    border-radius: 50%;
+    // background-color: var(--secondarColor);
+    background-color:var(--secondaryBGcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: -1%; */
+    /* padding: 5%; */
+    margin-right: 6%;
+   cursor: default !important;
+
+}
+
+.setBgColor{
+    background-color: var(--secondarColor) !important;
+    color: var(--specialBg) !important;
+}
+.unsetBgColor{
+    background-color: white;
+}
+.fHolder .stepH{
+
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    // border: 2px solid yellow;
+   
+}
+
+.fHolder .steps span{
+    @extend .txtProps;
+
+}
+
+.fHolder .closeBtn {
+    //font-size: 1.8rem !important;
+    @extend .txtProps;
+    font-weight: 500;
+    background-color: var(--secondaryBGcolor);
+    /* padding: 0.5rem; */
+    width: 2rem;
+    border-radius: 50%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.fHolder .closeBtn:hover{
+    background-color: var(--primaryColor);
+}
+
+.fHolder textarea {
+    width: 100%;
+    padding: 4%;
+    background-color: #edf2f7;
+    border: none;
+    margin-bottom: 2%;
+    font-size: 1rem;
+    font-family: 'OpenSans-Regular';
+    border: 1px solid var(--primaryColor);
+    box-sizing: border-box;
+  }
+
+  .fHolder .promotionWindow{
+      position: relative;
+      width: 100%;
+      height: 5rem;
+      margin-bottom: 6%;
+    //   border-radius: 6%;
+      background-color: var(--secondarColor);
+  }
+
+  
+
+// .fHolder input {
+    // width: 100%;
+    // padding: 3.5%;
+    // background-color: #edf2f7;
+    // border: none;
+    // margin-bottom: 2%;
+    // font-size: 1rem;
+    // border: 2px solid var(--primaryColor);
+    // box-sizing: border-box;
+//   }
+
+
+.fHolder input {
+    width: 100%;
+    padding: 3.5%;
+    margin-bottom: 4%;
+    box-sizing: border-box;
+    border: 1px solid var(--primaryColor);
+    font-size: 14px;
+    font-family: 'OpenSans-Regular';
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background-color: var(--secondaryBGcolor);
+    border-radius: 4px;
+    color: var(--textColor);
+  }
+  
+  .fHolder input:focus {
+    border: 1px solid var(--secondarColor);
+  }
+
+  .dropDownWraper{
+    width: 100%;
+    }
+    
+    
+    .dropDownWraper select {
+    
+        /* styling */
+        // background-color: rgb(87, 75, 75);
+        // border: thin solid blue;
+        // border-radius: 4px;
+        display: inline-block;
+        font: inherit;
+        line-height: 1.5em;
+        padding: 0.5em 3.5em 0.5em 1em;
+      
+        /* reset */
+      
+        margin: 0;      
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+      }
+      
+     
+      
+      .dropDownWraper select.minimal {
+        background-image:
+          linear-gradient(45deg, transparent 50%, var(--primaryColor) 50%),
+          linear-gradient(135deg, var(--primaryColor) 50%, transparent 50%),
+          linear-gradient(to right, var(--primaryColor), var(--primaryColor));
+        background-position:
+          calc(100% - 20px) calc(1.5em + 2px),
+          calc(100% - 15px) calc(1.5em + 2px),
+          calc(100% - 2.5em) 0.5em;
+        background-size:
+          5px 5px,
+          5px 5px,
+          1px 2.5em;
+        background-repeat: no-repeat;
+      }
+      
+  .fHolder select{
+    width: 100%;
+    padding: 3.5%;
+    margin-bottom: 4%;
+    box-sizing: border-box;
+    border: 1px solid var(--primaryColor);
+    font-size: 14px;
+    font-family: 'OpenSans-Regular';
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background-color: var(--secondaryBGcolor);
+    border-radius: 4px;
+    color: var(--textColor);
+
+    // background-color: #edf2f7;
+    // // border: none;
+    // border: 2px solid var(--primaryColor);
+    // padding: 3.5%;
+    // width: 100%;
+    // font-family: 'poppins-regular';
+    // font-size: 1rem;
+    // color: var(--specialBg);
+    // cursor: pointer;
+    // margin-bottom: 2%;
+    // border-radius: 4px;
+    // //  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right 20px;
+    // border:2px solid var(--primaryColor) !important;
+  }
+
+
+  .fHolder select:focus {
+    border: 1px solid var(--secondarColor);
+  }
+
+
+//   .fHolder input:focus {
+//     border: 2px solid var(--primaryColor) !important;
+//   }
+
+
+//   .fHolder input[type=text]:focus {
+//     border: 2px solid rgb(22, 180, 93) !important;
+//   }
+
+
+  
+  .fHolder .eyeIcon{
+    // position: relative;
+    // z-index: 10;
+    // top: 50px;
+    // cursor: pointer;
+     //color: var(--secondarColor) !important;
+    // left: 25rem;
+    color: var(--primaryColor) !important;
+    float: right;
+    margin-left: -46px;
+    margin-top: 1rem;
+    margin-right: 10px;
+    position: relative;
+    z-index: 2;
+  }
+  .fHolder .inputH{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--errorColor);;
+  }
+  .fHolder .previousH{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .fHolder .previousH button{
+    // font-size: 1rem;
+    font-family: 'OpenSans-Regular';
+    width: 49% !important;
+    font-size: 16px;
+    font-family: 'OpenSans-Regular';
+    font-weight: 500;
+
+}
+
+ // .formHolder button[type="submit"]{
+    .fHolder button{
+        background-color:var(--primaryColor);
+        border: none;
+        padding: 3%;
+        width: 100%;
+        @extend .txtProps;
+        color: var(--textColor);
+        cursor: pointer;
+        border-radius: 4px;
+        border:1px solid var(--primaryColor) !important;
+        text-transform: capitalize;
+        margin-top: 6%;
+        font-size: 16px;
+        font-family: 'OpenSans-Regular';
+        font-weight: 500;
+      }
+      .fHolder button:hover{
+        background-color:var(--secondarColor);
+      }
+.fHolder .pswHolder{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.fHolder .itemsHolder{
+    width: 80%;
+}
+
+.fHolder .showPage{
+    display: block;
+}
+.fHolder .hidepage{
+    display: none;
+}
+
+      
+
+      .stepOnrHolder {
+          margin-top: 6%;
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+      }
+      .stepOnrHolder span{
+          color: var(--errorColor);;
+          font-family: 'OpenSans-Regular';
+          font-size: 14px;
+      }
+      .stepOnrHolder label{
+        color: var(--textColor);
+        font-family: 'OpenSans-Regular';
+        font-size: 14px;
+    }
+     .checkerrorColor{
+        color: var(--errorColor);;
+      }
+      .checkBColor{
+        color: var(--secondarColor) !important;
+    
+      }
+.fHolder .checkBoxH{display: flex;}
+
+.fHolder .checkBoxH span{width: 100%;}
+.fHolder .checkBoxH input{width: 5%;}
+
+
+.fHolder .radioGrp{
+    display: flex;
+    width: 30%;
+    margin-bottom: 3%;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.fHolder .radioGrp input{
+cursor: pointer;
+}
+
+.fHolder .statusHolder{
+     width:100%;
+    height: auto;
+    padding:2%;
+    // width: 21%; 
+    left: "0px";
+    // top: 37%;
+    background-color: var(--secondarColor) !important;
+    height: auto;
+    // padding: 2%;
+}
+.fHolder .statusHolder span{
+    @extend .txtProps;
+text-align: center;
+    color: var(--textColor) !important;
+
+}
+
+.fHolder .statusHolder button{
+margin-top: 12% !important;
+    
+    }
+
+.fHolder .pBar{
+width: 100%;
+height: 8px !important;
+// height: 50% !important;
+    background-color: orange !important;
+}
+
+.disableForm{
+pointer-events: none;
+opacity: 1;
+}
+.enableForm{
+pointer-events:auto;
+opacity: 1;
+}
+
+.fHolder .tickSucss{
+    color: green;
+    float: right;
+    margin-left: -46px;
+    margin-top: 1rem;
+    margin-right: 10px;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+  
+
+
+  .fHolder .tickError{
+    color: var(--errorColor);;
+    float: right;
+    margin-left: -46px;
+    margin-top: 1rem;
+    margin-right: 10px;
+    position: relative;
+    z-index: 2;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }

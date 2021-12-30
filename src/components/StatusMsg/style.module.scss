@@ -1,0 +1,104 @@
+
+  .statusWindow{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    // width: 28%;
+    // height: 62%;
+    // position: relative;
+    // background-color: var(--secondarColor);
+    background-color: var(--primaryBGcolor);
+    border-radius: 10px;
+    // border: 1px solid #707070;
+    margin-top: 22%;
+    padding-bottom: 8%;
+    position: relative;
+    // left: 36%;
+  }
+
+  .txtProps{
+    font-size: 16px;
+    font-family: 'OpenSans-Regular';
+    color: var(--textColor);
+  }
+
+  .statusWindow .resultMsg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+}
+  
+
+  .statusWindow .resultMsg span{
+    color: var(--textColor);
+    font-size: 16px;
+    font-family: 'OpenSans-Regular';
+    text-align: center;
+    text-decoration: none;
+  
+  }
+
+  .statusWindow .emailIcon{
+    font-size: 4rem;
+    color:var(--primaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  .statusWindow .headtitle{
+    width: 100%;
+    height: 12%;
+    padding:2%;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 10px;
+    background-color: var(--primaryBGcolor);
+    border-top-left-radius: 10px;
+    align-items: center;
+  }
+  .statusWindow .headtitle span{
+    @extend .txtProps;
+  }
+ 
+//   .statusWindow .closeBtn {
+//     //font-size: 1.8rem !important;
+//     @extend .txtProps;
+//     font-weight: bold;
+//     background-color: var(--secondaryBGcolor);
+//     /* padding: 0.5rem; */
+//     width: 2rem;
+//     border-radius: 50%;
+//     height: 2rem;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: absolute;
+//     top: 1rem;
+//     right: 1rem;
+//     cursor: pointer;
+// }
+
+//   .statusWindow .closeBtn span{
+//     @extend .txtProps;
+//   }
+
+//   .statusWindow .closeBtn:hover{
+//     background-color: var(--secondarColor) !important;
+//   }
+
+ 
+  .statusWindow .titleTxt{
+    display: flex;
+    width: 94%;
+    height: auto;
+    // border: 2px solid red;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+
+

@@ -1,0 +1,305 @@
+.depositPopup {
+  display: table;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.depositPopup .popupBody {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.depositPopup .commonWrap {
+  background-color: #0174df;
+  border-radius: var(--radius-primary);
+  color: #fff;
+  margin: 0 auto;
+  max-width: 400px;
+  max-height: calc(100vh - 10px);
+  overflow: hidden;
+}
+
+.depositPopup .commonWrap .popupHeader {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  display: flow-root;
+}
+
+.depositPopup .commonWrap .popupHeader .popupLogo {
+  float: left;
+  width: 98px;
+}
+
+.depositPopup .commonWrap .popupHeader .close {
+  float: right;
+  background: var(--primary);
+  padding: 5px;
+  border-radius: var(--radius-primary);
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.depositPopup .commonWrap .popupBody {
+  padding: 0px 20px 20px 20px;
+}
+
+.depositPopup .commonWrap .popupBody .fa-credit-card-alt {
+  font-size: 20px;
+}
+
+.depositPopup .commonWrap .popupBody .name {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.depositPopup .commonWrap .popupBody .label {
+  padding: 10px 0;
+}
+
+.depositPopup .commonWrap .popupBody .amount {
+  width: calc(45% - 19px);
+}
+
+.depositPopup .commonWrap .popupBody input[type="text"] {
+  padding: 10px 2px;
+  margin: 0 2px;
+  border-radius: var(--radius-primary);
+  border: 1px solid transparent;
+  text-align: center;
+  outline: none;
+}
+
+.depositPopup .commonWrap .popupBody .depositAmt input:read-only {
+  width: 18.333%;
+  cursor: pointer;
+  border-color: var(--primary);
+  background-color: transparent;
+  color: #fff;
+}
+
+.depositPopup .commonWrap .popupBody .depositAmt input.selected {
+  background-color: var(--primary);
+}
+
+.depositPopup .commonWrap .popupBody .saved-cards {
+  display: flex;
+  margin-bottom: 7px;
+}
+
+.depositPopup .commonWrap .popupBody .savedCards .card .fa {
+  font-size: 40px;
+}
+
+.depositPopup .commonWrap .popupBody .savedCards .cardNo {
+  padding: 0 5px;
+  line-height: 40px;
+  display: inline-block;
+}
+
+.depositPopup .commonWrap .popupBody .savedCards .card-cvv {
+  width: calc(100% - 192px);
+}
+
+.depositPopup .commonWrap .popupBody .savedCards .card-cvv input[type="text"] {
+  width: 100%;
+}
+
+.depositPopup .commonWrap .popupBody input[type="submit"],
+.depositPopup .commonWrap .popupBody input[type="button"] {
+  padding: 10px 2px;
+  margin: 10px auto;
+  border-radius: var(--radius-primary);
+  border: 1px solid transparent;
+  text-align: center;
+  outline: none;
+  background-color: var(--primary);
+  width: 100%;
+  color: #fff;
+  cursor: pointer;
+}
+
+.depositPopup .commonWrap .popupBody .bonus_code.bonus_code {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.depositPopup .commonWrap .popupBody #bonus_type {
+  padding: 10px 2px;
+  margin: 2px 0px;
+  border-radius: var(--radius-primary);
+  text-align: center;
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: #fff;
+}
+
+.depositPopup .commonWrap .popupBody option {
+  background: var(--primary);
+}
+
+.depositPopup .commonWrap .popupBody .bonus {
+  margin-top: 10px;
+}
+
+.depositPopup .commonWrap .popupBody .scrollData {
+  height: 156px;
+  overflow-y: auto;
+}
+
+.depositPopup .commonWrap .popupBody.deposit-popup .scrollData {
+  height: 324px;
+}
+
+.depositPopup .commonWrap .popupBody.depositPop .scrollData #deposit_type {
+  padding: 10px 2px;
+  margin: 0;
+  border-radius: var(--radius-primary);
+  border: 1px solid transparent;
+  text-align: center;
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+}
+
+.depositPopup .commonWrap .popupBody.depositPopp .scrollData .deposit-type-select {
+  border: 1px solid var(--primary);
+}
+
+.depositPopup .commonWrap .popupBody.depositPop .scrollData .img-option {
+  text-align: center;
+  display: block;
+}
+
+.depositPopup .commonWrap .popupBody.depositPop .scrollData .img-option .fa {
+  font-size: 40px;
+}
+
+.depositPopup .notificationWrap {
+  max-width: 550px;
+}
+
+.depositPopup .notificationWrap .title {
+  width: calc(100% - 32px);
+  float: left;
+}
+
+.depositPopup .notificationWrap .arrow {
+  padding: 5px;
+  width: 32px;
+  float: right;
+}
+
+.depositPopup .notificationWrap li {
+  border-bottom: 1px solid #212733;
+  padding: 20px 0 20px 20px;
+  position: relative;
+  display: flow-root;
+  width: 100%;
+  margin: 0;
+}
+
+.depositPopup .notificationWrap li .title,
+.depositPopup .notificationWrap li .description {
+  padding-left: 25px;
+}
+
+.depositPopup .notificationWrap li .description {
+  display: none;
+}
+
+.depositPopup .notificationWrap li .description.block {
+  display: inline-block;
+  padding-top: 5px;
+  width: 100%;
+  line-height: 15px;
+}
+
+.depositPopup .notificationWrap li::before {
+  content: "\f0f3";
+  font-weight: 400;
+  font-family: 'FontAwesome';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+}
+
+.depositPopup .notificationWrap li dd {
+  text-transform: uppercase;
+  color: #000;
+  line-height: 15px;
+}
+
+.depositPopup .notificationWrap .notif-logo {
+  float: left;
+  width: 98px;
+}
+
+.depositPopup .notificationWrap .notif-header {
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.depositPopup .notificationWrap .unread {
+  background-color: #2997ff;
+}
+
+.depositPopup .notificationWrap .notif-body {
+  max-height: calc(100vh - 226px);
+  overflow-y: auto;
+}
+
+.depositPopup .notificationWrap .close {
+  float: right;
+  background: var(--primary);
+  padding: 5px;
+  border-radius: var(--radius-primary);
+  margin-right: 5px;
+}
+
+.depositPopup .notificationWrap .notifFooter {
+  padding: 20px;
+}
+
+.depositPopup .notificationWrap .notifFooter .btn {
+  border: 1px solid #77b0e6;
+  border-radius: var(--radius-primary);
+  padding: 8px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.depositPopup .notificationWrap h4 {
+  clear: both;
+  font-size: 18px;
+}
+
+.depositPopup .notificationWrap .status {
+  color: #000;
+}
+
+.depositPopup .notificationWrap .btn {
+  border: 1px solid #77b0e6;
+  border-radius: var(--radius-primary);
+  width: 80%;
+  margin: 3px auto;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}

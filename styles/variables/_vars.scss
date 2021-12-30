@@ -1,0 +1,40 @@
+// $primary: #1E79C7;
+// $secondary: #E5681A;
+
+// :export {
+//   primary: $primary;
+//   secondary: $secondary;
+// }
+
+
+// $siteBg:#EBEBEB;
+// $mygreen: white;
+// $favSelectColor: #060D29;
+// $favUnSelectColor: #00B9FF;
+// $headerBg: #131416;
+// $textColor: #FFFFFF;
+// $btnTextColor: #FFFFFF;
+// $btnBg:#131416;
+// $customBtnBorder:#00B9FF;
+// $menuBg:#005BC4;
+// $primarytitleColor:#005BC4;
+// $footerBg:#060D29;
+
+// $themes: (
+//   dark: (
+//     menuBg : #005BC4,
+//     footerBg: #060D29,
+//   ),
+//   light: (
+//     menuBg : #c40083,
+//     footerBg: #47c564,
+//   ),
+
+// ),
+
+@mixin reset-list {
+    // margin: 0;
+    // padding: 0;
+    // list-style: none;
+    background-color: red;
+  }

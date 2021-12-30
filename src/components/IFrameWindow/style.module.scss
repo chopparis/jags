@@ -1,0 +1,333 @@
+.playWindow{
+  width: 100%;
+  height: 100vh;
+  // min-height: 600px;
+ //margin-top: 70px;
+  background-color:#131521;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  // position: relative;
+}
+
+.setPlayWindow{
+position: absolute;
+z-index: 6;
+}
+.unSetPlayWindow{
+  position: relative;
+}
+
+
+.IframeplayWindow{
+  // width: 1076px;
+  width: 95%;
+  height: 60%;
+  // border:2px solid red;
+  background-color: #131521;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: inline-flex;
+  // position: relative;
+  .game_area{
+    width: 100%;
+    height: 100%;
+    // background-color: var(--headerBGColor);
+    background-color: #b4b6b9;
+    border:none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+}
+ .games_section{
+  width: 100%;
+  height: auto;
+  // border:2px solid red;
+  max-width: 1016px;
+  margin-bottom: 12px;
+
+    .gamesTitle{
+      margin-bottom: 12px;
+    }
+    span{
+      font-size: 16px;
+      color: var(--textColor);
+    }
+    .gameList{
+      width: 100%;
+      height: auto;
+      // display: inline-flex;
+      overflow: hidden;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      overflow-y: hidden;
+      white-space: nowrap;
+    }
+  .gameThumb{
+    // width: 62px;
+    // min-width: 62px;
+    // height: 52px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    // min-height: 52px;
+    // background-color: var(--primaryColor);
+  border: 1px solid var(--dropDownBg);
+    position: relative;
+    border-radius: 4px;
+    margin: 6px;
+    cursor: pointer;
+
+    img{
+      border-radius: 4px;
+    }
+  }
+  .gameThumb:hover{
+    // transition:transform 0.4s ease;
+    // transform: scale(1.1); 
+    border: 1px solid var(--textColor);
+  }
+}
+
+  .recentGameLogo{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #212633;
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+/* width */
+.gameList::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+} 
+
+/* Track */
+.gameList::-webkit-scrollbar-track {
+  background: #212733; 
+} 
+ 
+/* games_section */
+.gameList::-webkit-scrollbar-thumb {
+  // background: var(--secondarColor);
+  // background: var(--sideMenuScrollBg);
+  background: #5d6373;
+  border-radius: 4px;
+} 
+
+/* Handle on hover */
+.gameList::-webkit-scrollbar-thumb:hover {
+  // background: var(--secondarColor);
+  background: var(--sideMenuScrollBg);
+  border-radius: 4px;
+} 
+
+
+.setScreenMode{
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+}
+.unSetScreenMode{
+
+  width: 100%;
+  height: 100%;
+  // min-height: 55%;
+  // max-width: 75%; 
+  // max-height: 75%; 
+  max-width: 1016px;
+   //max-width: 2100px;
+ max-height: 555px;
+ overflow: hidden !important;
+}
+.IframeplayWindow .gameBody{
+    width: 100%;
+    height: 100%;
+    // background-color: var(--primaryColor);
+    background-color: #212633;
+    display: flex;
+    overflow: hidden;
+    // border:2px solid yellow;
+    // justify-content: space-between;
+    // align-items: center;
+  }
+  
+  // .IframeplayWindow .titleHeader span{
+  //   color: white;
+  //   font-size: 1.5rem;
+  //   font-family: 'poppins-semi-bold';
+  //   padding: 2%;
+  
+  // }
+
+
+
+  .optionsHolder{
+    display: block;
+    // justify-content: space-evenly;
+    // width: 8%;
+    height: auto;
+    // padding:2%;
+    cursor: pointer;
+    margin-left: 5px;
+    // /* border: 2px solid red; */
+    // align-items: center;
+    // position:absolute;
+  }
+  .setOptions{
+    position: absolute;
+    right: 5px;
+  }
+  .unSetOptions{
+    position: relative;
+  }
+  .iconProps{
+    font-size: 32px !important;
+    color: var(--primaryColor);
+    font-weight: bold;
+    // margin-right: 10px;
+  }
+  // .IframeplayWindow .fscreen:hover{
+  //  color: var(--secondarColor);
+  // }
+   .cancelBtn{
+    font-size: 32px;
+    color: #e7666a;
+    font-weight: bold;
+  }
+
+
+.iconBg{
+    width: 58px;
+    height: 58px;
+    background-color: #212633;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .iconBg:hover{
+background-color: #3a6288;
+  }
+  .IframeplayWindow .titleHeader h2{
+  color: white;
+  font-size: 1rem;
+  font-family: 'poppins-semi-bold';
+  padding: 2%;
+  
+  }
+  
+  .IframeplayWindow .titleHeader span:hover{
+   color:var(--favSelect)
+  
+  }
+  
+  .speedDail{
+
+    display: none;
+       justify-content: center;
+       align-items: center;
+       position: absolute;
+     right: 5px;
+    // display: inline-flex;
+     left: 0px;
+     z-index: 3;
+  
+    border-radius: 0px 4px 4px 0px;
+    width: 16px;
+    height: 58px;
+    background-color: var(--primaryColor);
+    color: white;
+    font-size: 30px;
+  
+    margin-top: 20px;
+   
+  }
+
+  .optionsHolder_m{
+    position: absolute;
+    right: 5px ; 
+    display: none;
+    left: 0px; 
+    overflow-x: hidden;
+    transition: 0.5s;
+    width:0px;
+    margin-left: 15px;
+    margin-top: 23px;
+  }
+  .optionsHolder_m_xepand{
+    display: none;
+    width:300px;
+  }
+  .iconBg_m{
+    // width: 58px;
+    // height: 58px;
+     background-color: #212633;
+     border-radius: 4px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    // margin-left: 5px;
+    width: 52px;
+    height:52px;
+    margin-left: 5px;
+  }
+  .iconBg_m:hover{
+background-color: #3a6288;
+  }
+
+  @media (max-width: 1024px) {
+    // .speedDail{
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    //   position: absolute;
+    // right: 5px;
+    // display: inline-flex;
+    // left: 0px;
+    // z-index: 3;
+    // }
+    // .optionsHolder{position: absolute;right: 5px ; display: inline-flex;left: 0px; overflow-x: hidden;
+    //   transition: 0.5s;width:0px}
+    // .playWindow{position: absolute;z-index: 6;}
+    // .optionsHolder .iconBg{width: 42px;height:42px;margin-right: 5px;}
+.speedDail{
+  display: flex;
+}
+    .optionsHolder_m{
+      display: inline-flex;
+    }
+    .optionsHolder_m_xepand{display: inline-flex;}
+    .optionsHolder{
+      display: none;
+    }
+
+    .gameList::-webkit-scrollbar {
+      display: none;
+    } 
+
+
+  }
+
+  @media (max-height: 759px) {
+
+  }
+  .games_section{
+
+    margin-top: 80px;
+  
+      .gamesTitle{
+        margin-bottom: 4px;
+        margin-left: 6px;
+      }
+  }
+  

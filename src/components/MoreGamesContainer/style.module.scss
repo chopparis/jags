@@ -1,0 +1,697 @@
+
+ @import "../../../styles/Global.module.scss";
+ // @import "../../../styles/variables/_vars.scss";
+
+
+ .moregames_CasinoContainer{
+   width:100%;
+ //width: 85%;
+  max-width: 1525px;
+  min-height: 700px;
+  height: auto;
+  // display: flex;
+  // justify-content: center;
+  // flex-wrap: wrap;
+  margin-bottom: 2%;
+  // background-color: rgba(90, 107, 204, 0.288);
+ // background-image: url("http://localhost:3000/images/bg-2.jpg");
+ //background-image: url('../public/images/bg-img.png');
+  //background-repeat: repeat;
+  // min-height: 50vh;
+  //  border: 2px solid green; 
+  // background-color: black;
+}
+
+@media (max-width: 1370px) {
+  .moregames_CasinoContainer{
+    width: 93%;
+  }
+}
+
+
+.moreGamesHolder{
+  width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // margin-top: 1%;
+
+    
+}
+
+
+.txtProps{
+  font-size: 1rem;
+  font-family: 'OpenSans-Regular';
+  color: var(--textColor);
+}
+
+.moreGamesHolder .titleHolder{
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-left: .5%;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1%;
+  // border: 2px solid red;
+}
+.moreGamesHolder .titleHolder span{
+  @extend .txtProps;
+  font-size: 2rem !important;
+  margin-bottom: 1rem;
+}
+
+.ImgHolder{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.ImgHolder img{
+  border-radius: 20px;
+}
+
+
+.favSelect{
+  @include favSelection
+}
+.favUnSelect{
+@include favUnSelection
+}
+.favIconSize{
+@include favIconSizes
+}
+
+.setSize {
+  width: 200px !important;
+  // background-color: red !important;
+  // height: 50px !important;
+}
+
+.gameThumbOverlay {
+ @include gameItemOverlay;
+//  position: absolute;
+//  top: 0;
+//  bottom: 0;
+//  left: 0;
+//  right: 0;
+//  height: 100%;
+//  width: 100%;
+//  opacity: 0;
+//  transition: .5s ease;
+//  border-radius: 20px;
+//  background-color: #080808
+ }
+
+ 
+//--More Games section 
+.GameItemHolder{
+ // display: inline-block;;
+ //  width: 16.25rem;
+  // height: 13.75rem;
+  //  border:2px solid blue;
+ //  border-radius: 20px;
+  // margin: .4%;
+  // background-color: rgba(90, 107, 204, 0.288);
+
+  display: inline-block;
+  width: 100%;
+  height: 13.75rem;
+  border-radius: 20px;
+  margin: 0.4%;
+  background-color: rgba(90, 107, 204, 0.288);
+}
+
+.overlayBtn {
+ @include gameItemOverlayBtn;
+ }
+ 
+ .moreInfoTxt{
+@include gameItemMoreInfoTxt;
+ }
+
+
+
+//--OverLay
+.GameItemHolder:hover .gameThumbOverlay{
+  opacity: .7;
+}
+
+//--Play button
+.GameItemHolder:hover .overlayBtn{
+  opacity: 1;
+}
+//--Info text
+.GameItemHolder:hover .moreInfoTxt{
+  opacity: 1;
+}
+
+
+// .searhcItemSize{
+//   width: 200px !important;
+// }
+
+// @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+//   .GameItemHolder{width: 200px;height: 170px;margin: 1.6%;}
+//   }
+.moreGamesHolder .gametypeName{
+  width: 24%;
+  // margin-left: 7%;
+}
+.moreGamesHolder .gametypeName span{
+  font-size:26px !important;
+  color: var(--subMenuTxt) !important;
+  font-weight: bold;
+  font-style: italic;
+  @extend .txtProps;
+}
+.moregames_CasinoContainer .filterContainer{
+  width: 100%;
+    height: 100%;
+    // background: rgba(0, 0, 0, 0.5);
+    background: var(--headerBGColor);
+    display: flex;
+    flex-wrap: wrap;
+margin-bottom: 30px;
+margin-top: 20px;
+    position: relative;
+    border-radius: 8px;
+
+}
+.moregames_CasinoContainer .filterHolder{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  position: relative;
+}
+.moregames_CasinoContainer .setBgcolor{
+  background: var(--headerBGColor);
+   //opacity: 1;
+}
+.moregames_CasinoContainer .unSetBgcolor{
+   background:none;
+ // opacity: 0;
+}
+.filterContainer .filtersWraper{
+  width:100%;
+  height: 100%;
+  // background: rgba(0, 0, 0, 0.5);
+  // margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.filterContainer .filtersHolder{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.filterContainer .fcloseBtn{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 5px;
+  border: 2px solid var(--primaryBGcolor);
+  text-align: center;
+  cursor: pointer;
+}
+.filterContainer .toogleFilterBtn{
+  // @extend .fcloseBtn;
+  width: 38px !important;
+  height: 38px !important;
+  left: 20px;
+  top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+   background: linear-gradient(225deg, #F50357 0%, #0173E0 100%) !important;
+  border: 2px solid var(--primaryBGcolor);
+  cursor: pointer;
+  margin-right: 20px;
+}
+.filterContainer .filterBtnWraper{
+  width: 100%;
+  height: auto;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.filterContainer span{
+  color: #ffffff;
+  font-family: 'OpenSans-Regular';
+  font-size: 18px;
+}
+.filterContainer .fcloseBtn span{
+  font-weight: bold;
+  color: var(--primaryColor) !important;
+  font-size: 14px;
+  
+}
+.filterContainer .searchCom{
+  width: 170px;
+  height: 40px;
+  // border: 1px solid white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+
+  border: 1px solidvar(--primaryColor);
+  background: linear-gradient(225deg, #F50357 0%, #0173E0 100%);
+}
+
+
+.filterContainer .filterCom{
+  width: 170px;
+  height: 40px;
+  // border: 1px solid white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+  position: relative;
+  background:var(--secondaryBGcolor);
+
+}
+.filterContainer .filterCom:hover{
+  border: 1px solidvar(--primaryColor);
+  background: linear-gradient(225deg, #F50357 0%, #0173E0 100%);
+}
+.filterContainer span{
+  font-family: 'OpenSans-Regular';
+// font-style: italic;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -1px;
+color: white;
+pointer-events: none;
+}
+
+.filterCom .filterPanel{
+  width: auto;
+  height: auto;
+  min-width: 170px;
+  background: white;
+  // border: 2px solid red;
+  position: absolute;
+  top:44px;
+  border-radius: 4px;
+   z-index: 6;
+ // z-index: 2;
+}
+.filterPanel .FilterStrip{
+  width: 100%;
+  height: auto;
+  // border-radius: 15px;
+  display: flex;
+  // background: #b6b5b6;
+  margin-top: 10px;
+  // justify-content: space-evenly;
+  align-items: center;
+  margin:14px;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.filterPanel .FilterStrip:hover span{
+  // background: #202122;
+  color:#2997FF;
+  
+}
+.FilterStrip .circle_select{
+  width: 20px;
+  height: 20px;
+  background: #CFEAFF;
+  border: 3px solid #CFEAFF;
+border-radius: 4px;
+margin-right: 8px;
+}
+.circle_select .inner_circle_select{
+width: 14px;
+height: 14px;
+background: #2997FF;
+border-radius: 50px;
+}
+.circle_select .inner_circle_select_color{
+  background: #2997FF;
+}
+.circle_select .inner_circle_unselect_color{
+  background: #CFEAFF;
+}
+
+.filterPanel .FilterStrip span{
+  color: #1B1F27;
+  font-family: 'OpenSans-Regular';
+  font-weight: bold;
+  font-size: 18px;
+}
+.moreGamesHolder .favHolder{
+  @include favIconHolder;
+}
+
+
+.moreGamesHolder .favIcon{
+
+ @include favIconPos;
+
+}
+
+
+.moreGamesHolder .thumbBg{
+  position: absolute;
+    /* top: 26%; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* left: 30%; */
+    font-size: 6rem;
+    opacity: 0.2;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.moreGamesHolder .gamesSection{
+  // width: 100%;
+  // height: auto;
+  // display: flex;
+  // justify-content: center;
+  // flex-wrap: wrap;
+  // align-items: center;
+  //  border:2px solid red;
+
+   width: 100%;
+   height: auto;
+    // border: 2px solid red;
+  //  display: grid;
+  //  grid-template-columns: repeat(auto-fill, minmax(10.25rem, 1fr));
+  //  grid-gap: 1rem;
+
+}
+
+.moreGamesHolder .notFound{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    padding: 6rem;
+    color: var(--secondarColor);
+  }
+
+  .moreGamesHolder .BtnHolder{
+    display: flex;
+    width: inherit;
+    height: inherit;
+    justify-content: center;
+    border: 2px solid #424fc9;
+    align-items: center;
+     border-radius: 2px;
+  }
+
+  .moreGamesHolder .MmoreInfoTxt{
+  
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    bottom: 2px;
+    right: 7px;
+    /* font-size: 100px; */
+    color: var(--favBg);
+  
+  
+  }
+
+ .gameTileWraper{
+    width: 12.5%;
+    height: 239px;
+     background-color:var(--appBg);
+   // display: flex;
+    //justify-content: center;
+   // align-items: center;
+    // margin-right: .8rem;
+    // border: 2px solid red;
+    display: inline-flex;
+    position: relative;
+  }
+
+  .gamesSection .loadMoreWraper{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .gamesSection .loadMoreGames{
+    width: 100%;
+         z-index: 1; 
+         margin: 0 auto 0 auto;
+    //  display: block; 
+    // margin: 20px auto 0;
+     max-width: 285px;
+     border: 2px solid #dedfe3;
+     color: #dedfe3;
+     text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-tap-highlight-color: transparent;
+    background: none;
+    /* outline: none; */
+    // position: relative;
+    // display: inline-block;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    vertical-align: middle;
+    overflow: hidden;
+
+  }
+
+
+  
+  .filterContainer .chipsTray{
+    width: 99%;
+    height: auto;
+    // background: rgb(66, 52, 52);
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .chipWraper{
+    width: auto;
+    height: auto;
+    // border:1px solid rgb(241, 232, 232);
+    border:1px solid var(--primaryColor);
+    border-radius: 8px;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 4px;
+    text-transform: capitalize;
+  }
+  .chipsTray .clearFilters{
+    width: auto;
+    height: auto;
+    color: var(--errorColor) !important;
+    text-decoration: underline;
+    // border:1px solid var(--primaryColor);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .chipsTray .clearFilters span{
+
+    font-family: 'OpenSans-Regular';
+    //  font-weight: bold;
+    font-size: 18px;
+    color: var(--errorColor);
+  }
+  .chipWraper span{
+    color: var(--primaryColor);
+    font-family: 'OpenSans-Regular';
+    // font-weight: bold;
+    font-size: 15px;
+    // padding: 4px 10px 4px 10px;
+  }
+.chipWraper .filterCloseBtn{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  // border: 2px solid red;
+  margin: 5px;
+  /* padding: 3px; */
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  
+}
+.chipWraper .filterCloseBtn span{
+font-weight: bold !important;
+color: var(--errorColor) !important;
+}
+// .chipWraper .filterCloseBtn:hover span{
+//   color: var(--errorColor) !important;
+// }
+@media (min-width: 200px) and (max-width: 800px) {
+
+  .moreGamesHolder .notFound{
+font-size: 18px;
+  }
+  .moreGamesHolder .gametypeName span{
+    font-size: 1rem !important;
+  }
+  .filterContainer .filterCom{
+    height: 30px;
+    margin: 5px;
+  }
+  .filterContainer .filterCom span{
+  font-size: 14px;
+  }
+
+  .chipWraper span{
+    font-size: 14px;
+  }
+  .chipsTray .clearFilters span{
+    font-size: 14px;
+  }
+
+  .filterContainer span{
+    font-size: 14px;
+  }
+
+  .filterContainer .toogleFilterBtn{
+    width: 28px !important;
+    height: 28px !important;
+  }
+  .titleHolder{flex-direction: column-reverse;}
+  //.searcholder{flex-direction: row-reverse;flex-wrap: wrap-reverse;width: 100% !important;}
+ // .searhcItemSize { width: 30rem !important;}
+ // .setSize { width: 132px !important;}
+ // .itemsSpacer{margin-right: 2%;margin-top: 4%;}
+  .moreGamesHolder{justify-content: center;padding:2%}
+  // .itemsSpacer input {
+  //   width: 28em;
+  //   padding:2.5%;
+  // }
+  .moreGamesHolder .gametypeName{
+    width: 86%;
+    margin-bottom: 10px;
+    justify-content:flex-start;
+    align-items: baseline;
+    display: flex;
+  }
+
+  }
+
+  // @media (max-width: 1360px){
+    @media (max-width: 1500px){
+    .gameTileWraper{
+      width: 13.5%;
+      height: 17.5vw;
+  }
+  .gamesSection{
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  }
+  }
+
+  @media (max-width: 880px){
+    .gameTileWraper{
+      width: 14.28571429%;
+      height: 20.51357733vw;
+  }
+  }
+  
+
+@media (max-width: 770px){
+  .gameTileWraper{
+        width: 16.66666667%;
+    height: 23.74393283vw;
+}
+}
+
+@media (max-width:660px){
+  .gameTileWraper{
+    width: 20%;
+    height: 28.19100092vw;
+    }
+}
+
+
+@media (max-width:550px){
+  .gameTileWraper{
+    width: 25%;
+    height: 34.7107438vw;
+    }
+}
+
+
+@media (max-width: 440px){
+  .gameTileWraper{
+    width: 33.33333333%;
+    height: 45.22497704vw;
+    }
+}
+
+
+@media (max-width: 330px){
+  .gameTileWraper{
+    width: 50%;
+    height: 65.19742883vw;
+    }
+}
+    
+
+@media (max-width: 220px){
+  .gameTileWraper{
+    width: 100%;
+    height: 119.83471074vw;
+    }
+}
+
+
+@media (min-width: 100px) and (max-width: 1366px){
+  .CasinoContainer{
+    width: 90%;
+  }
+  }

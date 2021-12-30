@@ -1,0 +1,51 @@
+// @import "../../../styles/variables/_vars.scss";
+// .mainContainer{
+//     overflow-x: hidden;
+//     display: flex;
+//     flex-direction: column;
+//     width:100%;
+//     // width: 1902px;
+//     // margin-top: 5%;
+//     margin-top: 100px;
+//     // height: auto;
+//     // border: 2px solid rgb(4, 0, 255); 
+//     // min-width: 100%;
+//     // min-height:100vh;
+//     //    height: 100vw;
+//     height: auto;
+//     max-width: 100%;
+//     background-color:$siteBg;
+// }
+
+
+.mainContainer{
+    // overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color: var(--appBg);
+    //background-color: #1b1f27;
+    // width: 1902px;
+    // margin-top: 5%;
+     margin-top: 100px;
+    // height: auto;
+    // border: 2px solid rgb(4, 0, 255); 
+    // min-width: 100%;
+    // min-height:100vh;
+    //    height: 100vw;
+    min-height: 600px;
+    // height: auto;
+    max-width: 100%;
+    // margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  @media (min-width: 50px) and (max-width: 1366px) {
+    .mainContainer{
+       margin-top: 74px;
+    }
+  }
+  
+  

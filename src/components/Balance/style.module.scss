@@ -1,0 +1,202 @@
+
+.txtProps{
+    font-family: 'OpenSans-Regular';
+     color: var(--textColor);
+}
+.flexProps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.inputProps{
+    width: 100%;
+    padding: 3.5%;
+    border: none;
+    margin-bottom: 2%;
+    color: var(--textColor);
+    @extend .txtProps;
+    border: 1px solid var(--primaryColor);
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: var(--secondaryBGcolor);
+        
+}
+
+// .avatharWraper{
+//     width: 20%;
+//     height: 100%;
+//     @extend .flexProps;
+//     margin: .5rem;
+// }
+.wBalanceWraper{
+    width: 23%;
+    height: 100%;
+    @extend .flexProps;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+.wBalanceWraper .wTxtColor span{
+    color: var(--primaryColor) !important;
+    font-size: 16px;
+    font-family: 'OpenSans-Regular';
+}
+
+// .wBalanceWraper .bonusAmt{
+//     color: var(--textColor);
+//     font-size: 14px;
+//     font-family: 'OpenSans-Regular';
+// }
+
+.balanceWindow{
+    border-radius: 4px;
+    background-color: var(--sidNavBg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 22%;
+    padding-bottom: 8%;
+    position: relative;
+}
+.balanceWindow .sectionOne{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-top: 4%;
+}
+
+.balanceWindow .sectionTwo{
+    width: 90%;
+    height: auto;
+    margin-top: 4%;
+}
+.balanceWindow .b_titles span{
+    @extend .txtProps;
+    font-size: 18px !important;
+}
+.balanceWindow .sectionThree{
+    width: 90%;
+    height: auto;
+    margin-top: 6%;
+}
+
+.balanceWindow .blanceStrip{
+    width: 100%;
+    height: auto;
+    background-color: var(--secondaryBGcolor);
+    border-radius: 4px;
+    margin-top: 1rem;
+    padding: 1px;
+}
+.balanceWindow .amtInput{
+    height: auto;
+    width: 100%;
+    margin-right: 2rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.balanceWindow .amtInput input[type=text] {
+   @extend .inputProps;
+   font-size: 14px !important;
+   width: 78% !important;
+}
+      
+.balanceWindow .amtInput input[type=password] {
+    @extend .inputProps;
+    font-size: 14px !important;
+    width: 20% !important;
+}
+    
+.balanceWindow .amtInput input:focus {
+    border: 1px solid var(--primaryColor) !important;
+    background-color: var(--secondaryBGcolor) !important;
+}
+
+.balanceWindow .depositAmt{
+    width: 100%;
+    height: auto;
+    background-color: var(--secondaryBGcolor);
+    border-radius: 4px;
+    margin-top: 1rem;
+    cursor: pointer;
+    @extend .flexProps;
+    
+}
+.balanceWindow .depositAmt:hover{
+    background-color: var(--primaryColor);
+}
+.balanceWindow .depositAmt span{
+   color: var(--textColor);
+   font-size: 16px !important;
+   padding: 4%;
+}
+.balanceWindow .cvvInput{
+    width: 20%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+
+
+
+.logoHolder{
+   width: 9.75rem;
+   height: 3.75rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.balanceWindow .closeBtn {
+    font-family: 'OpenSans-Regular';
+     color: var(--textColor);
+    font-weight: bold;
+    background-color: var(--secondaryBGcolor);
+    width: 2rem;
+    border-radius: 50%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    min-width: 25px;
+    min-height: 25px;
+    cursor: pointer;
+}
+
+.closeBtn span{
+    font-family: 'OpenSans-Regular';
+    color: var(--textColor);
+}
+
+.closeBtn:hover{
+    background-color: var(--primaryColor);
+}
+
+// .testOverLay{
+//     z-index: 2;
+//     position: fixed;
+//     display: flex;
+//      top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     align-items: center;
+//     justify-content: center;
+//     background-image: linear-gradient(
+// 180deg
+// ,#1c1e27 30%,rgba(28,30,39,.6));
+// }
+// .unSettestOverLay{
+//     display: none;
+// }

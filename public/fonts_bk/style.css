@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "poppins-bold";
+	src: url("Poppins-Bold.ttf") format("truetype"); /* IE9 Compat Modes */
+}
+@font-face {
+	font-family: "poppins-semi-bold";
+	src: url("Poppins-SemiBold.ttf") format("truetype"); /* IE9 Compat Modes */
+}
+
+@font-face {
+	font-family: "poppins-regular";
+	src: url("Poppins-Regular.ttf") format("truetype"); /* IE9 Compat Modes */
+}
+
+@font-face {
+	font-family: "poppins-medium";
+	src: url("Poppins-Medium.ttf") format("truetype"); /* IE9 Compat Modes */
+}

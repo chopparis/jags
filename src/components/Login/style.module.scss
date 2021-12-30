@@ -1,0 +1,201 @@
+.loginBg{
+    background-color:var(--sidNavBg);;
+}
+.txtProps{
+  font-size: 1rem;
+  font-family: 'OpenSans-Regular';
+  color: var(--textColor);
+}
+
+// .unSetOverlay{
+//     display: none;
+//   }
+//   .overlay {
+//     position: fixed; /* Sit on top of the page content */
+//     display: block; /* Hidden by default */
+//     width: 100%; /* Full width (cover the whole page) */
+//     height: 100%; /* Full height (cover the whole page) */
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+//     z-index: 2000; /* Specify a stack order in case you're using a different order for other elements */
+//     cursor: pointer; /* Add a pointer on hover */
+//   }
+
+  .loginWindow{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    // width: 28%;
+    // height: 62%;
+    // position: relative;
+    // background-color: var(--secondarColor);
+    background-color: var(--sidNavBg);
+    border-radius: 10px;
+    // border: 1px solid #707070;
+    // margin-top: 22%;
+    padding-bottom: 8%;
+    // left: 36%;
+    transition: all 5s ease-in-out;
+  }
+  .headtitle{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 2px;
+    background-color:var(--sidNavBg);
+    border-top-left-radius: 2px;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+  }
+  .headtitle span{
+    @extend .txtProps;
+  }
+
+//   .headtitle .closeBtn {
+//     //font-size: 1.8rem !important;
+//     @extend .txtProps;
+//     font-weight: bold;
+//     background-color: var(--secondaryBGcolor);
+//     /* padding: 0.5rem; */
+//     width: 30px;
+//     border-radius: 50%;
+//     height: 30px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: absolute;
+//     top: 1rem;
+//     right: 1rem;
+// }
+
+//   .closeBtn span{
+//     @extend .txtProps;
+//     font-size: 16px !important;
+//   }
+
+  .headtitle .closeBtn:hover{
+    background-color: var(--secondarColor) !important;
+  }
+
+  .formHolder {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 8%;
+  }
+  .titleTxt{
+    display: flex;
+    width: 94%;
+    height: auto;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 4%;
+  }
+  .titleTxt span{
+    font-size: 26px !important;
+    @extend .txtProps;
+  }
+  
+  .formHolder input {
+    width: 100%;
+    padding: 3%;
+    background-color: var(--secondaryBGcolor);
+    margin-bottom: 2%;
+    font-size: 14px;
+    color: var(--textColor);
+    border: 1px solid var(--textColor);
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  .formHolder input:focus {
+    outline: none !important;
+    border: 2px solid var(--primaryColor) !important;
+  }
+
+  // input:focus {
+  //   background-color: yellow;
+  // }
+
+  .formHolder input.largerCheckbox {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    margin-right: 8%;
+}
+  
+  // .formHolder button[type="submit"]{
+    .formHolder button{
+    background-color:var(--menuBtncolor);
+    border: none;
+    padding: 3.5%;
+    width: 100%;
+    @extend .txtProps;
+    font-size: 16px;
+    color: var(--textColor);
+    cursor: pointer;
+    border-radius: 30px;
+    // border:1px solid var(--primaryColor) !important;
+  }
+  .formHolder button:hover{
+    background-color:var(--btnSelectColor);
+  }
+  .formHolder a:hover{
+    color: var(--primaryColor)
+  }
+  .checkBoxHolder{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    color: var(--textColor);
+  }
+
+  .checkBoxHolder a{
+
+    @extend .txtProps;
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+
+  .checkBoxHolder a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .checkBoxLable{
+    width: 50%;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    color: var(--primaryColor);
+    font-size: 13px;;
+  }
+  .checkBoxHolder input{
+    // width: 10% !important;
+  }
+  .errorText{
+    color: var(--errorColor);
+    font-size: 16px;
+  }
+
+  .disableForm{
+    pointer-events: none;
+    opacity: .5;
+  }
+  .enableForm{
+    pointer-events:auto;
+    opacity: 1;
+  }
+
+  .pBar{
+    width: 100%;
+    height: 8px !important;
+    // height: 50% !important;
+     background-color: orange !important;
+  }
+ 

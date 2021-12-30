@@ -1,0 +1,152 @@
+{
+    "code": 200,
+    "success": true,
+    "error": 0,
+    "message": "Success",
+    "result": {
+        "menuItems": [
+            {
+                "id": "home",
+                "displayName": "",
+                "iconPath": "",
+                "contents": [
+                    {
+                        "id": "featured",
+                        "displayName": "LATEST GAMES",
+                        "displayType": "CAROUSEL",
+                        "visible": true
+                    },
+                    {
+                        "id": "favorites",
+                        "displayName": "MOST POPULAR GAMES",
+                        "displayType": "GRID_PAGINATION",
+                        "visible": true
+                    }
+                ],
+                "visible": false,
+                "requireAuthentication": false
+            },
+            {
+                "id": "slots",
+                "displayName": "SLOTS",
+                "iconPath": "/images/general-menu/menu-Slots.png",
+                "contents": [
+                    {
+                        "id": "slots",
+                        "displayName": "5 REEL SLOTS",
+                        "displayType": "GRID",
+                        "visible": true
+                    }
+                ],
+                "visible": true,
+                "requireAuthentication": false
+            },
+            {
+                "id": "blackjack",
+                "displayName": "BLACKJACK",
+                "iconPath": "/images/general-menu/menu-blackjack.png",
+                "contents": [
+                    {
+                        "id": "blackjack",
+                        "displayName": "BLACKJACK",
+                        "displayType": "GRID",
+                        "visible": true
+                    }
+                ],
+                "visible": true,
+                "requireAuthentication": false
+            },
+            {
+                "id": "tablegames",
+                "displayName": "TABLE GAMES",
+                "iconPath": "/images/general-menu/menu-table-games.png",
+                "contents": [
+                    {
+                        "id": "roulette and craps",
+                        "displayName": "ROULETTE & CRAPS",
+                        "displayType": "GRID",
+                        "visible": true
+                    },
+                    {
+                        "id": "blackjack",
+                        "displayName": "TABLE BLACKJACK",
+                        "displayType": "GRID",
+                        "visible": true
+                    },
+                    {
+                        "id": "table poker",
+                        "displayName": "TABLE POKER",
+                        "displayType": "GRID",
+                        "visible": true
+                    },
+                    {
+                        "id": "other",
+                        "displayName": "OTHER TABLES",
+                        "displayType": "GRID",
+                        "visible": true
+                    }
+                ],
+                "visible": true,
+                "requireAuthentication": false
+            },
+            {
+                "id": "videopoker",
+                "displayName": "VIDEO POKER",
+                "iconPath": "/images/general-menu/menu-video-poker.png",
+                "contents": [
+                    {
+                        "id": "single hand poker",
+                        "displayName": "SINGLE HAND POKER",
+                        "displayType": "GRID",
+                        "visible": true
+                    },
+                    {
+                        "id": "multi hand poker",
+                        "displayName": "MULTI HAND POKER",
+                        "displayType": "GRID",
+                        "visible": true
+                    },
+                    {
+                        "id": "pyramid poker",
+                        "displayName": "PYRAMID POKER",
+                        "displayType": "GRID",
+                        "visible": true
+                    }
+                ],
+                "visible": true,
+                "requireAuthentication": false
+            },
+            {
+                "id": "live-casino",
+                "displayName": "LIVE CASINO",
+                "iconPath": "/images/general-menu/menu-live-casino.png",
+                "contents": [
+                    {
+                        "id": "live-casino",
+                        "displayName": "LIVE DEALERS 24/7",
+                        "displayType": "GRID",
+                        "visible": true
+                    }
+                ],
+                "visible": false,
+                "requireAuthentication": false
+            },
+            {
+                "id": "favorites",
+                "displayName": "FAVORITES",
+                "iconPath": "/images/general-menu/menu-favorites.png",
+                "contents": null,
+                "visible": true,
+                "requireAuthentication": true
+            }
+        ],
+        "AllGames": [
+            {"id":"1","name":"blackjack","iconPath":"/blackjack455.webp"},
+            {"id":"1","name":"usroulette","iconPath":"/usroulette392_245.webp"},
+            {"id":"1","name":"EndZoneRiches","iconPath":"/EndZoneRiches325x203_30392.webp"},
+            {"id":"1","name":"HowlingatthemoonWC","iconPath":"/HowlingatthemoonWC325x203.webp"}
+        ]
+    },
+    "title": "",
+    "meta": ""
+}

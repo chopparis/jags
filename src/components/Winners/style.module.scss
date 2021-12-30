@@ -1,0 +1,166 @@
+.winnerSection{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    position: relative;
+    // filter: drop-shadow(0 3.61485px 29.4352px rgba(6,6,6,.27));
+}
+.winnersGameLogo{
+    display: inline-block;
+    width: 96px;
+    margin-left: 10px;
+    height: 94px;
+    border-radius: 5px;
+    background-color: #212633;
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.winnerSection .wBtnsHolder{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+.disableNavBtn{
+    pointer-events: none;
+  }
+  .enableNavBtn{
+      opacity: 1;
+      pointer-events:painted;
+  }
+
+  .wnavBtns{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--NavBtnsColor);
+  box-shadow: 0px 3px 0px rgba(10, 95, 131, 0.33);
+    margin-left: -30px;
+    margin-right: -30px;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+   color: var(--txtBaseColor);
+   cursor: pointer;
+  }
+
+.winnerSection .winnertxt{
+    width: 70%;
+   height: 100px;
+   padding: 2%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.winnerSection .winnertxt span{
+    font-family: 'OpenSans-Regular';
+    font-size: 1rem;
+    text-align: center;
+     color:var(--headerBGColor);
+    text-align: left;
+}
+.winnertxt .nameTxt{
+    color: var(--textHoverColor) !important;
+    font-weight: bold !important;
+}
+.winnertxt .winAmtTxt{
+    color: var(--moreGamesTiyle) !important;
+    font-weight: bold !important;
+}
+.winnertxt .winAmtTxt a{
+    color: var(--moreGamesTiyle) !important;
+}
+.winnerSection .winnerLogo{
+    position:relative;
+    width: 40%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+.winnerSection .winnerLogo img{
+    border-radius: 6px;
+}
+
+
+
+  .wCard{
+    width: 350px;
+    height: 125px;
+    min-width: 350px;
+    min-height: 125px;
+    // background-color: var(--winnerBg);
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-flex;
+  
+    border-radius: 10px;
+    border: 2px solid #B9DAEC;
+    box-shadow: 0px 4.13125px 0px #d2ecf9;
+
+  }
+
+
+
+.winnerSection .winnerItems{
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    padding: 2px;
+    // border: .5px solid red;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.wtitle{
+  display: flex;
+    align-items: flex-end;
+    transition: opacity .3s;
+    min-height: 45px;
+    height: auto;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 15px;
+    // border:2px solid yellow;
+    flex-grow: 1;
+    margin-right: 20px;
+    width:99%;
+    justify-content: space-between;
+  }
+  .wtitle span{
+    // color: var(--headerTxtColor);
+    font-family: 'OpenSans-bold';
+     font-size: 1.6rem;
+     font-weight: bold; 
+      font-weight: 800;
+      font-style: italic;
+      color: var(--categoryTitle);
+  }
+
+@media (max-width: 1024px) {
+    .wnavBtns{display: none;}
+    .wCard{height: 9vh;}
+    .wtitle span{
+font-size: 16px;
+    }
+
+}

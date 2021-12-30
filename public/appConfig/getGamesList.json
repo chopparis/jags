@@ -1,0 +1,700 @@
+{
+    "gamesList": [
+        {
+            "id": "1.webp",
+            "gameType": "slots",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game Hellow worls",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "1",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "1.webp"
+        },
+        {
+            "id": "2.webp",
+            "gameType": "slots",
+            "name": "Roulette",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "BGamings",
+            "sortOrder": "2",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "2.webp"
+        },
+        {
+            "id": "3.png",
+            "gameType": "poker",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "3",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "3.png"
+        },
+        {
+            "id": "4.png",
+            "gameType": "poker",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "4",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "4.png"
+        },
+        {
+            "id": "5.png",
+            "gameType": "poker",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "BGamings",
+            "sortOrder": "5",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "5.png"
+        },
+        {
+            "id": "6.png",
+            "gameType": "poker",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "6",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "6.png"
+        },
+        {
+            "id": "7.png",
+            "gameType": "poker",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "7",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "7.png"
+        },
+        {
+            "id": "8.png",
+            "gameType": "poker",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "BGamings",
+            "sortOrder": "8",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "8.png"
+        },
+        {
+            "id": "9.webp",
+            "gameType": "poker",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "BGamings",
+            "sortOrder": "9",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "9.webp"
+        },
+        {
+            "id": "10.png",
+            "gameType": "poker",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "BGamings",
+            "sortOrder": "10",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "10.png"
+        },
+        {
+            "id": "thumbnail-1.jpg",
+            "gameType": "roulette",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Dragon",
+            "sortOrder": "11",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "thumbnail-1.jpg"
+        },
+        {
+            "id": "thumbnail-2.jpg",
+            "gameType": "roulette",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Dragon",
+            "sortOrder": "12",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "thumbnail-2.jpg"
+        },
+        {
+            "id": "thumbnail-3.jpg",
+            "gameType": "roulette",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Dragon",
+            "sortOrder": "13",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "thumbnail-3.jpg"
+        },
+        {
+            "id": "thumbnail-4.jpg",
+            "gameType": "roulette",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Dragon",
+            "sortOrder": "14",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "thumbnail-4.jpg"
+        },
+        {
+            "id": "thumbnail-5.jpg",
+            "gameType": "roulette",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Dragon",
+            "sortOrder": "15",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "thumbnail-5.jpg"
+        },
+        {
+            "id": "thumbnail-6.jpg",
+            "gameType": "roulette",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Dragon",
+            "sortOrder": "16",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "thumbnail-6.jpg"
+        },
+        {
+            "id": "thumbnail-7.jpg",
+            "gameType": "roulette",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Dragon",
+            "sortOrder": "17",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "thumbnail-7.jpg"
+        },
+        {
+            "id": "thumbnail-8.jpg",
+            "gameType": "roulette",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "18",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "thumbnail-8.jpg"
+        },
+        {
+            "id": "thumbnail-9.jpg",
+            "gameType": "roulette",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "19",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "thumbnail-9.jpg"
+        },
+        {
+            "id": "20.png",
+            "gameType": "roulette",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "20",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions",
+                "papularity"
+            ],
+            "imagePath": "20.png"
+        },
+        {
+            "id": "21.webp",
+            "gameType": "slots",
+            "name": "Play with CLEO",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "21",
+            "device": "mobile",
+            "tags": [
+                "papularity"
+            ],
+            "imagePath": "21.webp"
+        },
+        {
+            "id": "22.webp",
+            "gameType": "slots",
+            "name": "Roulette",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "BGaming",
+            "sortOrder": "22",
+            "device": "mobile",
+            "tags": [
+                "papularity"
+            ],
+            "imagePath": "22.webp"
+        },
+        {
+            "id": "23.webp",
+            "gameType": "slots",
+            "name": "The wicked witch",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "BGaming",
+            "sortOrder": "23",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "23.webp"
+        },
+        {
+            "id": "24.webp",
+            "gameType": "slots",
+            "name": "Dragons",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "24",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "24.webp"
+        },
+        {
+            "id": "25.webp",
+            "gameType": "slots",
+            "name": "Elmariachi",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "25",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "25.webp"
+        },
+        {
+            "id": "26.webp",
+            "gameType": "slots",
+            "name": "Pandas",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "26",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "26.webp"
+        },
+        {
+            "id": "27.webp",
+            "gameType": "slots",
+            "name": "Legend Hours",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "BGaming",
+            "sortOrder": "27",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "27.webp"
+        },
+        {
+            "id": "28.webp",
+            "gameType": "slots",
+            "name": "The Defender",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "BGaming",
+            "sortOrder": "28",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "28.webp"
+        },
+        {
+            "id": "29.jpg",
+            "gameType": "slots",
+            "name": "BlackJack",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "29",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "29.jpg"
+        },
+        {
+            "id": "30.webp",
+            "gameType": "slots",
+            "name": "Buffalo Bounty",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "30",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "30.webp"
+        },
+        {
+            "id": "31.webp",
+            "gameType": "slots",
+            "name": "Fortune",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "BGaming",
+            "sortOrder": "31",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "31.webp"
+        },
+        {
+            "id": "32.webp",
+            "gameType": "slots",
+            "name": "Empire",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "32",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "32.webp"
+        },
+        {
+            "id": "33.webp",
+            "gameType": "slots",
+            "name": "Gold man",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Orgin",
+            "sortOrder": "33",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "33.webp"
+        },
+        {
+            "id": "34.webp",
+            "gameType": "slots",
+            "name": "BasketBall",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Orgin",
+            "sortOrder": "34",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "34.webp"
+        },
+        {
+            "id": "35.webp",
+            "gameType": "slots",
+            "name": "The ingot ox",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "BGaming",
+            "sortOrder": "35",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "35.webp"
+        },
+        {
+            "id": "36.webp",
+            "gameType": "slots",
+            "name": "Serils",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "36",
+            "device": "mobile",
+            "tags": [
+            ],
+            "imagePath": "36.webp"
+        },
+        {
+            "id": "37",
+            "gameType": "slots",
+            "name": "Shinobi",
+            "gameConfigId": "14563",
+            "isPlayerEligible": true,
+            "gameInfo": "This is most papular slot game",
+            "faviourate": "false",
+            "gameLaunchUrl": "",
+            "openGameMode": "newWindow",
+            "gameProvoder": "Netent",
+            "sortOrder": "37",
+            "device": "mobile",
+            "tags": [
+                "new",
+                "mostplayed",
+                "promotions"
+            ],
+            "imagePath": "37.webp"
+        }
+    
+    ]
+}

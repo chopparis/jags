@@ -1,0 +1,196 @@
+
+.carouseHolder{
+  width: 100%;
+  max-width: 1525px;
+  position: relative;
+    // max-width: 1300px;
+    // margin: 0 auto;
+  position: relative;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  filter: drop-shadow(0px 3.61485px 29.4352px rgba(6, 6, 6, 0.27));
+}
+.carouselBanner{
+  // width: calc(100% - 14px );
+  width: 100%;
+  margin: 0 auto;
+
+}
+.carouseHolder .slideBtnsWraper{
+  display: flex;
+  position: absolute;
+  width: 98%;
+  height: auto;
+  /* border: 2px solid red; */
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+  bottom: 5px;
+}
+.slideBtnsWraper .slideBtn{
+  display: inline-flex;
+  width: 8px;
+  height: 8px;
+  margin: 8px;
+  // border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  // cursor: pointer;
+  // transition: background .333s ease-in;
+  cursor: pointer;
+ border-radius: 50%;
+}
+.slideBtnsWraper .slideBtn:hover{
+  background-color: white;
+}
+.slideBtnsWraper .activeBg{
+  background-color: #E92284;
+}
+.slideBtnsWraper .inActiveBg{
+  background-color: white;
+}
+
+.caroBtnsWraper{
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // pointer-events: none;
+}
+.caro_rightbtn_wraper{
+@extend .caroBtnsWraper;
+   right: 0px;
+  //right: -40px;
+
+}
+.caro_leftbtn_wraper{
+  @extend .caroBtnsWraper;
+     left: 0px;
+    //left: -40px;
+
+}
+.setBannerBg{
+  // background-image: url('https://staging-wl.dragongaming.com/images/promotions/desktop/homepage/desk/banner_1.jpg');
+   width: 100%;
+ // width: calc(100% - 14px);
+  position: relative;
+//  height: 700px;
+//  height: 320px;
+height: 360px;
+ background-color: rgba(90, 107, 204, 0.288);
+ border-radius:10px;
+ background-repeat:no-repeat;
+ background-size: cover;
+ // top: 0;
+ // right: 0;
+ // bottom: 0;
+ // left: 0;
+  background-position: 50%;
+}
+
+
+
+.carousel_navBtns{
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: var(--primaryBGcolor);
+  background: var(--NavBtnsColor);
+ box-shadow: 0px 3px 0px rgba(10, 95, 131, 0.33);
+  font-size: 2rem;
+  font-weight: bold;
+ color: var(--txtBaseColor);
+ cursor: pointer;
+ border-radius: 50%;
+}
+
+.caro_leftBtn{
+  @extend .carousel_navBtns;
+  margin-left: -25px;
+}
+.caro_rightBtn{
+  @extend .carousel_navBtns;
+  margin-right: -25px;
+
+}
+.carousel_navBtns:hover{
+   border: 1px solid var(--primaryColor);
+  //background-color: var(--primaryColor);
+}
+
+.promotionCard{
+  position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    right: 60px;
+    padding-bottom: 30px;
+    bottom: 0;
+    max-width: 36%;
+    left: 60px;
+    line-height: 1.2;
+    z-index: 1;
+    max-width: 600px;
+    align-items: center;
+}
+.promotionTitle{
+  margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.promotionTxt{
+  max-height: 62px;
+    margin: 0 0 23px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.climBtn{
+  width: 120px;
+  height: 50px;
+  // border:1px solid var(--textColor);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+color: var(--textColor);
+background-color: var(--primaryColor);
+cursor: pointer;
+font-size: 16px;
+font-family: 'OpenSans-Regular';
+}
+
+
+@media (min-width: 1370px) and (max-width: 1600px){
+  .carouseHolder{width: 92%;}
+}
+
+
+@media (max-width: 1370px) {
+  .carouseHolder{width: 92%;}
+}
+
+// @media (max-width: 880px){
+  @media (max-width: 1024px) {
+  .caroBtnsWraper{display: none;}
+  .carouseHolder .slideBtnsWraper{
+    justify-content: center;
+  }
+}
+
+@media (max-device-width: 880px) and (orientation: landscape), (max-width: 500px){
+  .slideBtnsWraper .slideBtn{border-radius: 50%;width: 8px;height: 8px;}
+  }

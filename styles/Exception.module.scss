@@ -1,0 +1,46 @@
+.wraper_404{
+    width: 100;
+    height: auto;
+   
+}
+.wraper_404 .oops{
+    font-family: 'OpenSans-Regular';
+    font-size: 90px !important;
+    color: var(--primaryColor) !important;
+   font-weight: 500;
+   padding: 2px;
+}
+.wraper_404 .errorMsg{
+   
+}
+
+.wraper_404 .errorMsg span{
+    font-family: 'OpenSans-Regular';
+    font-size: 16px !important;
+   color:#fffefb;
+   font-weight: 500;
+   padding: 2px;
+}
+
+.wraper_404 .payBtn_wraper{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wraper_404 .payBtn{
+    width: auto;
+    height: auto;
+    background: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.wraper_404 .payBtn span{
+    font-family: "OpenSans-Regular";
+    font-size: 20px !important;
+    color: #000000;
+    font-weight: bold;
+    padding: 11px;
+}

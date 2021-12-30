@@ -1,0 +1,27 @@
+.CasinoContainer{
+  // width:100%;
+ width: 85%;
+  max-width: 1525px;
+  min-height: 700px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+  // background-color: rgba(90, 107, 204, 0.288);
+ // background-image: url("http://localhost:3000/images/bg-2.jpg");
+ //background-image: url('../public/images/bg-img.png');
+  //background-repeat: repeat;
+  // min-height: 50vh;
+  //  border: 2px solid green; 
+  // background-color: black;
+}
+.gamesHolder{
+  width: 100%;
+}
+
+@media (min-width: 100px) and (max-width: 1366px){
+  .CasinoContainer{
+    width: 90%;
+  }
+  }

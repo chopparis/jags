@@ -1,0 +1,264 @@
+.gameCards{
+    // width: calc(100% - 14px );
+     // height: calc(100% - 14px );
+     width: 100%;
+     // height: calc(100% - 14px );
+     height: 100%;
+     //margin-right: 14px;
+      position: relative;
+      background-color:var(--secondaryBGcolor);
+      border-radius: 6px;  
+      transition: transform 0.4s ease;
+       will-change: transform
+   }
+
+   .gameCards .favHolder{
+    z-index: 4 !important;
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+  //  position: relative;
+  position:absolute;
+    top: 2px;
+    right: 4px;
+    justify-content: flex-end;;
+ }
+
+ .gameCards .favHolder .favSelect{
+    font-size: 20px !important;
+    color: var(--favSelect) !important;
+    cursor: pointer;
+  }
+  .gameCards .favHolder .favUnSelect{
+    font-size: 20px !important;
+    color: var(--favUnSelect) !important;
+    cursor: pointer;
+  }
+  // .gameCards .favHolder .favIconSize{
+  //   font-size:20px !important;
+  //   color: var(--favSelect);
+  // }
+
+ 
+  .gameCards .favHolder .favIcon{
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+  //  position: relative;
+  position:absolute;
+    top: 2px;
+    right: 4px;
+    justify-content: flex-end;
+  }
+  .gameCards .gameCardOverlayBtn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity:0;
+    transition: 0.5s ease;
+    z-index: 2;
+   }
+
+   .gameCards img{
+    transition: transform .2s; /* Animation */
+    border-radius: 6px;
+ }
+ .gameCards:hover .gameCardOverlayBtn {
+    opacity: .6;
+ }
+ .gameCards:hover .CardOverlayBtn {
+    opacity: 1;
+ }
+ 
+ .gameCards:hover .gameNameWraper {
+   opacity: 1;
+ }
+ .gameCards:hover .jackPotAmt {
+   opacity: 0;
+ }
+ 
+ .gameCards:hover img {
+   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+   transition: transform 0.4s ease;
+     will-change: transform;
+ }
+
+.txtProps{
+  font-size: 1rem;
+  font-family: 'OpenSans-Regular';
+  color: var(--textColor);
+}
+
+.cardTags{
+  left: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+}
+.newTag{
+  width: fit-content;
+  background-image: linear-gradient(90deg,#fb5e59,#e72f35);
+}
+.hotTag{
+  width: fit-content;
+  background-image:linear-gradient(90deg,#fbda61,#f76b1c)
+}
+.cardTags span{
+  color: white;
+ margin-top: 10px;
+  padding: 1px 5px;
+  transform: skewX( -10deg);
+  font-size: 10px;
+  font-family: 'OpenSans-Regular';
+}
+
+.gameCards .CardOverlayBtn{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   z-index: 3;
+   flex-direction: column;
+   opacity: 0;
+   transition: .5s ease;
+   
+}
+.gameCards .gameNameWraper a{
+  text-decoration: none;
+  color: var(--textColor);
+  display: block;
+  transition: 0.3s;
+  font-size: 16px;
+  font-family: 'OpenSans-Regular';
+  white-space: nowrap; 
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis; 
+}
+// .CardOverlayBtn a:hover{
+//   color: var(--primaryColor);
+// }
+.gameCards .CardOverlayBtn .playIcon{
+   font-size: 4rem;
+   color: var(--primaryColor);
+}
+.infoIcon{
+   font-size: 1.5rem;
+  //  color: var(--primaryColor);
+  color: #3598fe;
+  //  margin-right: 10px;
+   position: absolute;
+   top: 5px;
+   right: 35px;
+   z-index: 4;
+   cursor: pointer;
+}
+.jackPotAmt{
+   width: 50%;
+   left: 10px;
+   bottom: 10px;
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  //  background-color: #373c3e9c;
+  // background-color: rgb(9 56 99);
+    opacity: 1;
+    position: absolute;
+
+}
+.jackpotEnable{
+  opacity: 1;
+
+}
+.jackpotDisable{
+  opacity: 0;
+}
+
+.jackPotAmt span{
+  font-family: 'OpenSans-Regular';
+   font-size: 12px !important;
+  // color:#d8b610;
+  color: var(--textColor);
+  font-weight: bold;
+  background-image: linear-gradient(
+90deg,#01b3cc,#0089a2);
+  padding: 4px;
+  transform: skewX( -10deg);
+}
+
+
+.gameCards .gameNameWraper{
+   width: 100%;
+  //  height: 15%;
+    // width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    /* padding-left: 6px; */
+    margin-bottom: 12px;
+    position: absolute;
+    bottom: 2px;
+    z-index: 3;
+    opacity: 0;
+ cursor: pointer;
+}
+.gameCards .gameNameWraper .gameName{
+  width: auto;
+  height: 100%;
+  // background-color: #373c3e9c;
+  background: #0E7FBE;
+  border-radius: 12px;
+  padding: 10px;
+
+}
+
+.gameCards .gameNameWraper .gameName:hover{
+  background-color: #E92284;
+}
+
+.normalWidth{
+  width: 100%;
+  height: 100%;
+}
+.moreGamesWidth{
+  width: calc(100% - 14px);
+  height: calc(100% - 14px);
+}
+//-----------------------------------------------------------Media Quries-----------------------------------
+
+// @media (max-width: 1370px) and (orientation: landscape) {
+
+// }
+
+@media (max-width: 1100px){
+  .gameCards .CardOverlayBtn{display: none;}
+  .gameCards .gameCardOverlayBtn{display: none;}
+  .gameCards .gameNameWraper{display: none;}
+}
+
+
+//______________________________________________________END_____________________________________________________________
+
+
